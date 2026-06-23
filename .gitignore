@@ -1,0 +1,32 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Node (mdBook doesn't need it but rule it out)
+node_modules/
+
+# mdBook build output
+/book/dist/
+/book/book/
+
+# Session / test artifacts
+/shared/tools/test.txt
+
+# Local-only
+.env.local
+*.local
+
+# OS downloads (don't commit binaries)
+/downloads-cache/

@@ -1,0 +1,30 @@
+[book]
+title = "Career Playbooks"
+authors = ["Mohammed Asif"]
+language = "en"
+src = "book/src"
+description = "A series of practice-first playbooks for becoming a senior engineer, manager, or AI leader — every chapter produces a graded artifact."
+multilingual = false
+site-url = "/playbooks/"
+
+[build]
+build-dir = "book/dist"
+create-missing = true
+
+[output.html]
+additional-css = ["custom.css"]
+git-repository-url = "https://github.com/webmakin/career-playbooks"
+edit-url-template = "https://github.com/webmakin/career-playbooks/edit/main/{path}"
+fold-level = 1
+no-section-label = false
+mathjax-support = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3

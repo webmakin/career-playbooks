@@ -1,0 +1,33 @@
+/* Career Playbooks — base styles. Inherits from mdBook defaults; this file
+   is a starting point for per-site tweaks. Currently minimal. */
+
+:root {
+    --content-max-width: 850px;
+}
+
+.chapter li.chapter-item strong {
+    font-weight: 600;
+}
+
+blockquote {
+    border-left: 4px solid var(--quote-border);
+    background: var(--quote-bg);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    color: var(--fg);
+    font-style: normal;
+}
+
+/* Failure mode callouts: the "**Name.**" lines in section 3 get a left bar. */
+blockquote p strong:first-child {
+    color: var(--red);
+}
+
+/* Tables — keep them tight. */
+table {
+    margin: 1rem 0;
+}
+
+table th {
+    background: var(--table-header-bg);
+}

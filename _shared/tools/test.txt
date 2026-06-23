@@ -1,0 +1,5 @@
+# Test file from session start - safe to delete
+# This file was created when verifying write_file's auto-mkdir behavior.
+# It is not referenced by any tool or by mdbook, and lives at:
+#   _shared/tools/test.txt
+# Delete it manually if you want a clean repo.
