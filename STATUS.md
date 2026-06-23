@@ -1,6 +1,6 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-23 — Phase 2 complete (Chapters 1–13). Phases 3–4 in progress (stubs).
+> **Last updated:** 2026-06-23 — Phase 3 complete (Chapters 1–17). Phase 4 in progress (stubs, Ch 18–28).
 
 ## Current Phase
 
@@ -10,7 +10,9 @@
 
 ✅ **Phase 2 — Platform & Production complete** (Chapters 10–13). Lifecycle, Platform Engineering, Reliability/Observability, Security/Privacy.
 
-🚧 **Phases 3–4 — Product, Leadership, Governance, Portfolio** are stubs (Ch 14–28).
+✅ **Phase 3 — Product & Strategy complete** (Chapters 14–17). Product Discovery, AI Strategy, Business Case, Pricing/GTM.
+
+🚧 **Phase 4 — Leadership + Governance + Portfolio** are stubs (Ch 18–28).
 
 ## Per-Playbook Snapshot
 
@@ -21,7 +23,7 @@
 | 0 | Skeleton | ✅ Complete |
 | 1 | Chapters 1–9 (Foundations + Technical Spine) | ✅ Complete |
 | 2 | Chapters 10–13 (Platform & Production) | ✅ Complete |
-| 3 | Chapters 14–17 (Product & Strategy) | 🚧 Stubs |
+| 3 | Chapters 14–17 (Product & Strategy) | ✅ Complete |
 | 4 | Chapters 18–25 (Leadership + Governance) + 26–28 (Portfolio) | 🚧 Stubs |
 | 5 | Polish, review, publish | TBD |
 
@@ -53,10 +55,10 @@ All are stubs in `book/src/` showing "Coming soon." Bootstrap recipe: see root `
 | 11 | AI Platform Engineering | ✅ Written (13KB) |
 | 12 | Reliability, Observability, and Incident Response for AI | ✅ Written (12KB) |
 | 13 | Security, Privacy, and Abuse Vectors | ✅ Written (13KB) |
-| 14 | AI Product Discovery and Roadmaps | 🚧 Stub |
-| 15 | AI Strategy and Roadmapping at Company Scale | 🚧 Stub |
-| 16 | Build a Compelling AI Business Case | 🚧 Stub |
-| 17 | Pricing, Packaging, and GTM for AI Features | 🚧 Stub |
+| 14 | AI Product Discovery and Roadmaps | ✅ Written (14KB) |
+| 15 | AI Strategy and Roadmapping at Company Scale | ✅ Written (13KB) |
+| 16 | Build a Compelling AI Business Case | ✅ Written (13KB) |
+| 17 | Pricing, Packaging, and GTM for AI Features | ✅ Written (12KB) |
 | 18 | Org Design and Team Topologies for AI | 🚧 Stub |
 | 19 | Hiring, Onboarding, and Growing AI Talent | 🚧 Stub |
 | 20 | Performance Management and Career Frames | 🚧 Stub |
