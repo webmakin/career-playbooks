@@ -13,6 +13,9 @@
 # AI Engineering Director Playbook
 
 - [AI Engineering Director Playbook](./ai-eng-director/README.md)
+- [Preface: How to Read This Book](./ai-eng-director/preface.md)
+- [Glossary](./ai-eng-director/glossary.md)
+- [Errata & Known Issues](./ai-eng-director/errata.md)
 
 # Part I — Foundations
 

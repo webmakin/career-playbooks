@@ -2,11 +2,15 @@
 
 > **Practice-first guides for becoming a senior engineer, manager, or AI leader — every chapter produces a graded artifact.**
 
+![v1.0.0 Released](https://img.shields.io/badge/v1.0.0-released-brightgreen)
+![Chapters: 28/28](https://img.shields.io/badge/chapters-28%2F28-brightgreen)
+![Live on GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-blue)
+
 This is a series of playbooks. Each one is the canonical guide for a specific role, structured the same way: a multi-chapter book with an 11-section anatomy per chapter, executable drills, worked examples, failure-mode postmortems, self-assessment rubrics, and interview-question banks.
 
 ## Pick the playbook that matches your goal
 
-- **AI Engineering Director** — heading toward Director or Head of AI? Start here. (28 chapters, 7 parts, full.)
+- **[AI Engineering Director](ai-eng-director/)** — heading toward Director or Head of AI? **Start here.** v1.0.0 is **complete** (28 chapters, 7 parts, 19 exercise bundles). [Open the playbook →](ai-eng-director/README.md)
 - Engineering Director (non-AI) — coming soon.
 - VP of Engineering — coming soon.
 - Principal AI Scientist — coming soon.
@@ -43,9 +47,15 @@ Every chapter ships a portfolio artifact (`portfolio/chapter-NN-<artifact>.md`).
 
 See [Conventions](index/conventions.md) for the full contract.
 
+## What's new
+
+- **v1.0.0 (2026-06-23):** AI Engineering Director playbook complete. 28 chapters, 7 parts, 19 exercise bundles, ~360KB prose. Live on GitHub Pages.
+
 ## Status
 
-🚧 Phase 0 (skeleton) complete. Phase 1 (Foundations + Technical Spine, Ch 1–9) being rebuilt after data loss 2026-06-23.
+**AI Engineering Director:** ✅ v1.0.0 shipped. 28/28 chapters written. 19/19 exercise bundles delivered. 4/4 verification gates green. Live on GitHub Pages.
+
+**Other playbooks:** 🚧 Stubs (Role-selector placeholders, coming soon).
 
 See [`STATUS.md`](https://github.com/webmakin/career-playbooks/blob/main/STATUS.md) for the per-chapter matrix.
 
