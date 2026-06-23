@@ -44,6 +44,21 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Sanity-check SUMMARY.md uses .md references (not .html)
+        working-directory: ${{ github.workspace }}
+        run: |
+          # Fail the build if any chapter link points to .html (the trap).
+          # The trap: if SUMMARY.md references .html output and stale
+          # .html files exist in src/, mdBook copies them verbatim and
+          # the live site renders 59-byte pages with just the H1 title.
+          if grep -E 'chapter-[0-9]+\.html' src/SUMMARY.md; then
+            echo "::error::src/SUMMARY.md references chapter-NN.html (output path)"
+            echo "::error::SUMMARY.md must reference chapter-NN.md (source path)"
+            echo "::error::Run: sed -i '' 's|chapter-\\([0-9][0-9]\\)\\.html|chapter-\\1.md|g' src/SUMMARY.md"
+            exit 1
+          fi
+          echo "SUMMARY.md references .md source files — OK"
+
       - name: Run rubric_linter on every chapter
         working-directory: ${{ github.workspace }}
         run: |
@@ -60,9 +75,33 @@ jobs:
       - name: Install mdBook
         uses: taiki-e/install-action@mdbook
 
+      - name: Clean stale .html build artifacts in src/
+        working-directory: ${{ github.workspace }}
+        run: |
+          # Per-file delete, no glob, no rm-rf. Matches only build
+          # artifacts (chapter-NN.html), never the .md source files.
+          # Idempotent: no-op if there are no stale files.
+          # See references/stale-html-shadowing-bug.md for full context.
+          find src -maxdepth 2 -name 'chapter-*.html' -type f -delete || true
+          echo "Stale .html cleanup done."
+
       - name: Build the book
         working-directory: ${{ github.workspace }}
         run: mdbook build
+
+      - name: Spot-check rendered chapter size
+        working-directory: ${{ github.workspace }}
+        run: |
+          # A real rendered chapter is 30-50KB. If it's <1KB, something
+          # is wrong (stale .html shadowing the .md source, build error,
+          # etc.). Catch it before deploying a broken site.
+          SIZE=$(wc -c < site/ai-eng-director/chapter-01.html)
+          echo "chapter-01.html size: $SIZE bytes"
+          if [ "$SIZE" -lt 1000 ]; then
+            echo "::error::chapter-01.html is only $SIZE bytes — site will be broken"
+            echo "::error::See references/stale-html-shadowing-bug.md"
+            exit 1
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
@@ -83,3 +122,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify live site is not 59-byte broken
+        run: |
+          # Wait for Pages to propagate. New deployments usually settle
+          # in 10-30s; we wait 45s to be safe.
+          sleep 45
+          SIZE=$(curl -sI https://webmakin.github.io/career-playbooks/ai-eng-director/chapter-01.html | grep -i content-length | awk '{print $2}' | tr -d '\r')
+          echo "Live site chapter-01.html: $SIZE bytes"
+          if [ "$SIZE" -lt 1000 ]; then
+            echo "::error::Live site chapter-01.html is only $SIZE bytes — site is broken"
+            echo "::error::Expected 30-50KB. See references/stale-html-shadowing-bug.md"
+            exit 1
+          fi
+          echo "Live site chapter-01.html is $SIZE bytes — OK"
