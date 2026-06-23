@@ -1,0 +1,85 @@
+name: Deploy Book
+
+# Build the mdBook site, run the rubric linter as a quality gate,
+# and deploy the resulting site to GitHub Pages on every push to main.
+#
+# Also runs on manual dispatch for ad-hoc rebuilds.
+#
+# This workflow is the BGFS-style deploy: same shape, same permissions,
+# same GitHub-Pages deploy via the official actions. Paths adapted for
+# the multi-playbook repo layout (src/, _shared/, <role>/chapters/).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "book.toml"
+      - "custom.css"
+      - "src/**"
+      - "_shared/**"
+      - "AI-eng-dir-playbook/**"
+      - ".github/workflows/deploy-book.yml"
+  workflow_dispatch:
+
+# Allow one concurrent deployment, queueing newer runs.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Required for GitHub Pages deployment.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  lint:
+    name: Lint chapters (rubric_linter)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run rubric_linter on every chapter
+        working-directory: ${{ github.workspace }}
+        run: |
+          echo "=== rubric_linter --all ==="
+          python3 _shared/tools/rubric_linter.py --all
+
+  build:
+    name: Build + deploy site to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install mdBook
+        uses: taiki-e/install-action@mdbook
+
+      - name: Build the book
+        working-directory: ${{ github.workspace }}
+        run: mdbook build
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
