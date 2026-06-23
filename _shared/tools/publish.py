@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-publish.py — Mirror a role playbook's chapters/ into book/src/<slug>/.
+publish.py — Mirror a role playbook's chapters/ into src/<slug>/.
 
 Usage:
     python3 publish.py --role <role-name>
     python3 publish.py --all
-    python3 publish.py --all --only chapters,diagrams
+    python3 publish.py --all --only chapters,templates
 
 Exit codes:
     0  all bootstrapped roles mirrored successfully
@@ -13,11 +13,22 @@ Exit codes:
 
 Not-yet-bootstrapped roles (e.g. staff-engineer-playbook before its
 chapters dir exists) are gracefully skipped. This is intentional.
+
+The mirror operation:
+  - Reads <role>/chapters/chap-N.md (canonical)
+  - Writes to src/<slug>/chapter-NN.md (zero-padded, mdBook convention)
+  - Mirrors <role>/templates/ and <role>/diagrams/ as-is
+  - Mirrors <role>/README.md → src/<slug>/README.md
+
+Why zero-pad? mdBook's SUMMARY.md and the rendered HTML use `chapter-NN.html`
+(two-digit). The canonical source uses `chap-N.md` (one-digit) for typing-speed
+reasons. publish.py is the seam.
 """
 
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -26,16 +37,26 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 BOOK_SRC = REPO_ROOT / "src"
 
 SLUG_MAP: dict[str, str] = {
-    "AI-eng-dir-playbook":            "ai-eng-director",
-    "engineering-director-playbook":  "engineering-director",
-    "vp-engineering-playbook":        "vp-engineering",
-    "principal-ai-scientist-playbook": "principal-ai-scientist",
-    "ml-researcher-playbook":         "ml-researcher",
-    "ai-engineer-playbook":           "ai-engineer",
-    "staff-engineer-playbook":        "staff-engineer",
+    "AI-eng-dir-playbook":              "ai-eng-director",
+    "engineering-director-playbook":    "engineering-director",
+    "vp-engineering-playbook":          "vp-engineering",
+    "principal-ai-scientist-playbook":  "principal-ai-scientist",
+    "ml-researcher-playbook":           "ml-researcher",
+    "ai-engineer-playbook":             "ai-engineer",
+    "staff-engineer-playbook":          "staff-engineer",
 }
 
-MIRROR_SUBDIRS = ["chapters", "templates", "diagrams"]
+# Subdirs to mirror as-is (no rename, no zero-padding)
+PASSTHROUGH_SUBDIRS = ["templates", "diagrams"]
+
+
+def chapter_dest_name(src_name: str) -> str | None:
+    """Map canonical `chap-N.md` -> rendered `chapter-NN.md`. Returns None if not a chapter."""
+    m = re.match(r"^chap-(\d+)\.md$", src_name)
+    if not m:
+        return None
+    n = int(m.group(1))
+    return f"chapter-{n:02d}.md"
 
 
 def mirror_role(role_name: str, only: list[str] | None) -> tuple[int, int, bool]:
@@ -54,27 +75,52 @@ def mirror_role(role_name: str, only: list[str] | None) -> tuple[int, int, bool]
 
     copied = 0
     failed = 0
-    subdirs = [s for s in MIRROR_SUBDIRS if (only is None or s in only)]
-    for sub in subdirs:
+
+    # Mirror chapters: chap-N.md -> chapter-NN.md at the dest root.
+    if only is None or "chapters" in only:
+        src_chapters = role_dir / "chapters"
+        if src_chapters.exists():
+            for src_file in sorted(src_chapters.glob("chap-*.md")):
+                dst_name = chapter_dest_name(src_file.name)
+                if dst_name is None:
+                    continue
+                dst_file = dest_root / dst_name
+                try:
+                    shutil.copy2(src_file, dst_file)
+                    copied += 1
+                except OSError as e:
+                    print(f"publish: failed to copy {src_file} -> {dst_file}: {e}", file=sys.stderr)
+                    failed += 1
+            print(f"publish: {role_name}/chapters -> {slug}/  ({copied} chapters copied)")
+        else:
+            print(f"publish: {role_name}/chapters -> {slug}/  (no chapters dir, skipped)")
+
+    # Passthrough subdirs (templates, diagrams)
+    for sub in PASSTHROUGH_SUBDIRS:
+        if only is not None and sub not in only:
+            continue
         src_sub = role_dir / sub
         if not src_sub.exists():
-            print(f"publish: {role_name}/{sub} -> {slug}/{sub}/  (0 copied, 0 failed)")
             continue
         dest_sub = dest_root / sub
         dest_sub.mkdir(parents=True, exist_ok=True)
-        files = [p for p in src_sub.rglob("*") if p.is_file()]
-        for src_file in files:
+        sub_copied = 0
+        for src_file in src_sub.rglob("*"):
+            if not src_file.is_file():
+                continue
             rel = src_file.relative_to(src_sub)
             dst_file = dest_sub / rel
             dst_file.parent.mkdir(parents=True, exist_ok=True)
             try:
                 shutil.copy2(src_file, dst_file)
-                copied += 1
+                sub_copied += 1
             except OSError as e:
                 print(f"publish: failed to copy {src_file} -> {dst_file}: {e}", file=sys.stderr)
                 failed += 1
-        print(f"publish: {role_name}/{sub} -> {slug}/{sub}/  ({copied} copied, {failed} failed)")
+        copied += sub_copied
+        print(f"publish: {role_name}/{sub} -> {slug}/{sub}/  ({sub_copied} copied)")
 
+    # Mirror README.md
     src_readme = role_dir / "README.md"
     if src_readme.exists():
         dst_readme = dest_root / "README.md"

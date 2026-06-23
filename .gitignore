@@ -23,6 +23,11 @@ node_modules/
 # Old book/ tree from previous config — no longer used
 /book/
 
+# mdBook build artifacts accidentally committed before .gitignore was tightened
+# (we now build into ./site/ — anything that LOOKS like a build output should
+# never be in src/, which is for source markdown only)
+/src/**/*.html
+
 # Session / test artifacts
 /_shared/tools/test.txt
 
