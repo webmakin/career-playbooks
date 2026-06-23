@@ -1,14 +1,16 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-23 — Phase 1 (Foundations + Technical Spine) complete. Phase 0 skeleton complete. Phases 2–4 in progress (stubs).
+> **Last updated:** 2026-06-23 — Phase 2 complete (Chapters 1–13). Phases 3–4 in progress (stubs).
 
 ## Current Phase
 
 ✅ **Phase 0 — Skeleton complete.** Local build verified. Site landing + 28 chapter stubs + 7 part dividers + role-selector + cross-references + conventions page all rendering.
 
-✅ **Phase 1 — Foundations + Technical Spine complete** (Chapters 1–9). All 9 chapters written, lints clean, cost numbers verified against real `cost_estimator.py` output, exercise bundles stubbed.
+✅ **Phase 1 — Foundations + Technical Spine complete** (Chapters 1–9).
 
-🚧 **Phases 2–4 — Platform/Product/Leadership/Governance/Portfolio chapters** are stubs (Ch 10–28) with the linter-compliant placeholder template.
+✅ **Phase 2 — Platform & Production complete** (Chapters 10–13). Lifecycle, Platform Engineering, Reliability/Observability, Security/Privacy.
+
+🚧 **Phases 3–4 — Product, Leadership, Governance, Portfolio** are stubs (Ch 14–28).
 
 ## Per-Playbook Snapshot
 
@@ -17,10 +19,10 @@
 | Phase | Description | Target |
 |---|---|---|
 | 0 | Skeleton | ✅ Complete |
-| 1 | Chapters 1–9 + foundational templates | ✅ Complete |
-| 2 | Chapters 10–13 (Platform & Production) | 🚧 Stubs |
+| 1 | Chapters 1–9 (Foundations + Technical Spine) | ✅ Complete |
+| 2 | Chapters 10–13 (Platform & Production) | ✅ Complete |
 | 3 | Chapters 14–17 (Product & Strategy) | 🚧 Stubs |
-| 4 | Chapters 18–21 (Leadership) + 22–25 (Governance) + 26–28 (Portfolio) | 🚧 Stubs |
+| 4 | Chapters 18–25 (Leadership + Governance) + 26–28 (Portfolio) | 🚧 Stubs |
 | 5 | Polish, review, publish | TBD |
 
 ### Other planned playbooks (each inherits the same shape)
@@ -47,10 +49,10 @@ All are stubs in `book/src/` showing "Coming soon." Bootstrap recipe: see root `
 | 7 | Inference and Cost Engineering | ✅ Written (13KB) |
 | 8 | Retrieval, Agents, and Tooling | ✅ Written (12KB) |
 | 9 | Evaluation as a First-Class Discipline | ✅ Written (12KB) |
-| 10 | MLOps / LLMOps Lifecycle | 🚧 Stub |
-| 11 | AI Platform Engineering | 🚧 Stub |
-| 12 | Reliability, Observability, and Incident Response for AI | 🚧 Stub |
-| 13 | Security, Privacy, and Abuse Vectors | 🚧 Stub |
+| 10 | MLOps / LLMOps Lifecycle | ✅ Written (13KB) |
+| 11 | AI Platform Engineering | ✅ Written (13KB) |
+| 12 | Reliability, Observability, and Incident Response for AI | ✅ Written (12KB) |
+| 13 | Security, Privacy, and Abuse Vectors | ✅ Written (13KB) |
 | 14 | AI Product Discovery and Roadmaps | 🚧 Stub |
 | 15 | AI Strategy and Roadmapping at Company Scale | 🚧 Stub |
 | 16 | Build a Compelling AI Business Case | 🚧 Stub |
@@ -71,6 +73,8 @@ All are stubs in `book/src/` showing "Coming soon." Bootstrap recipe: see root `
 
 - **Data loss event 2026-06-23.** A `write_file` tool truncation created a junk directory at a malformed path; `rm -rf ~/Downloads/career-playbook*` matched both the junk dir and the real `career-playbooks/`, deleting everything. Rebuilt from session context. Cost numbers in worked examples re-verified against `cost_estimator.py` output as part of the rebuild. Original git commit (Phase 0 + Ch 1–2) preserved in repo history; Phase 1 expanded to Ch 1–9 in subsequent commits.
 - **mdBook 0.5.3 schema gotchas** documented in `book.toml` — uses `fold = { level = 1 }`, drops `multilingual`, places `site-url` under `[output.html]`.
+- **publish.py rename (2026-06-23).** Originally mirrored chapters into `<slug>/chapters/` subdir; fixed to mirror flat at `<slug>/chapter-NN.md` to match SUMMARY.md links and the rendered HTML site. The old nested mirror and stale `chapter-NN.html` build artifacts were removed in commit `48a1c69`.
+- **Live site:** https://webmakin.github.io/career-playbooks/ — auto-deployed via `.github/workflows/deploy-book.yml` (lint + build + Pages deploy) on every push to main.
 
 ## Verification gates (the BGFS discipline)
 
