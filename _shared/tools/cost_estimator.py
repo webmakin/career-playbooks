@@ -80,9 +80,13 @@ def project(
     if abs(growth) < 1e-9:
         per_year_growth = per_day * 365
     else:
-        factor = (1 + growth) ** periods_per_year
-        geom_sum = (factor - 1) / growth
-        per_year_growth = per_day * geom_sum
+        # Per-day cost in period k (k=0..N-1) is per_day * (1+growth)^k.
+        # Annual sum = sum over periods of (days_per_period * per_day * (1+growth)^k)
+        #            = (days_per_period * per_day) * sum_{k=0..N-1} (1+growth)^k
+        #            = (days_per_period * per_day) * ((1+growth)^N - 1) / growth
+        days_per_period = 365 / periods_per_year
+        N = periods_per_year
+        per_year_growth = (days_per_period * per_day) * (((1 + growth) ** N - 1) / growth)
 
     return {
         "per_request": per_req,
@@ -94,6 +98,8 @@ def project(
 
 
 def fmt_money(x: float) -> str:
+    if abs(x) < 1:
+        return f"${x:.4f}"
     return f"${x:,.2f}"
 
 

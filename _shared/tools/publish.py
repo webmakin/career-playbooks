@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-BOOK_SRC = REPO_ROOT / "book" / "src"
+BOOK_SRC = REPO_ROOT / "src"
 
 SLUG_MAP: dict[str, str] = {
     "AI-eng-dir-playbook":            "ai-eng-director",

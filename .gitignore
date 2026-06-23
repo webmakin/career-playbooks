@@ -17,16 +17,15 @@ __pycache__/
 # Node (mdBook doesn't need it but rule it out)
 node_modules/
 
-# mdBook build output
-/book/dist/
-/book/book/
+# mdBook build output (we build into ./site/)
+/site/
+
+# Old book/ tree from previous config — no longer used
+/book/
 
 # Session / test artifacts
-/shared/tools/test.txt
+/_shared/tools/test.txt
 
 # Local-only
 .env.local
 *.local
-
-# OS downloads (don't commit binaries)
-/downloads-cache/

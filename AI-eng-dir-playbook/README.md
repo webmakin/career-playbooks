@@ -2,7 +2,7 @@
 
 > **The Practice-First Guide to Becoming an AI Engineering Director or Head of AI**
 
-This is the canonical source for the AI Engineering Director playbook. The published version (mdBook HTML site) is auto-generated from these chapters via `_shared/tools/publish.py`.
+This is the canonical source for the AI Engineering Director playbook. The published version (mdBook / GitBook HTML site) is auto-generated from these chapters via `_shared/tools/publish.py`.
 
 ## Who this is for
 
@@ -46,12 +46,12 @@ AI-eng-dir-playbook/
 
 ## Conventions
 
-This playbook follows the contracts in [`_shared/`](https://github.com/webmakin/career-playbooks/tree/main/_shared/). See [Conventions](../index/conventions.md) for the full rule set.
+This playbook follows the contracts in [`_shared/`](https://github.com/webmakin/career-playbooks/tree/main/_shared/). See [Conventions](https://github.com/webmakin/career-playbooks/blob/main/book/src/index/conventions.md) for the full rule set.
 
 ## Status
 
-Phase 0 (skeleton) complete. Phase 1 (Ch 1–9) being rebuilt. See root `STATUS.md`.
+Phase 0 (skeleton) complete. Phase 1 (Ch 1–9, Parts I + II) complete. Phases 2–4 (Ch 10–28) in progress as stubs.
 
 ## Contributing
 
-PRs welcome once the first 9 chapters are re-published. Until then, the author is writing solo; review will open after Chapter 9 lands.
+PRs welcome. The author's chapters are committed in priority order (Foundations → Technical Spine → Platform → Product → Leadership → Governance → Portfolio).
