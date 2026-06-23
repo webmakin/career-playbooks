@@ -1,6 +1,6 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-23 — Phase 3 complete (Chapters 1–17). Phase 4 in progress (stubs, Ch 18–28).
+> **Last updated:** 2026-06-23 — Phase 4 complete. **AI Engineering Director playbook is COMPLETE (28 chapters, 7 parts).**
 
 ## Current Phase
 
@@ -12,11 +12,13 @@
 
 ✅ **Phase 3 — Product & Strategy complete** (Chapters 14–17). Product Discovery, AI Strategy, Business Case, Pricing/GTM.
 
-🚧 **Phase 4 — Leadership + Governance + Portfolio** are stubs (Ch 18–28).
+✅ **Phase 4 — Leadership + Governance + Portfolio complete** (Chapters 18–28). Org Design, Hiring, Perf Management, Influence, Responsible AI, Regulatory, Crisis Response, Auditability, 30/60/90, Portfolio Map, System Design Appendix.
+
+🚧 **Phase 5 — Polish, review, publish.** TBD.
 
 ## Per-Playbook Snapshot
 
-### AI Engineering Director
+### AI Engineering Director — BOOK COMPLETE
 
 | Phase | Description | Target |
 |---|---|---|
@@ -24,7 +26,7 @@
 | 1 | Chapters 1–9 (Foundations + Technical Spine) | ✅ Complete |
 | 2 | Chapters 10–13 (Platform & Production) | ✅ Complete |
 | 3 | Chapters 14–17 (Product & Strategy) | ✅ Complete |
-| 4 | Chapters 18–25 (Leadership + Governance) + 26–28 (Portfolio) | 🚧 Stubs |
+| 4 | Chapters 18–28 (Leadership + Governance + Portfolio) | ✅ Complete |
 | 5 | Polish, review, publish | TBD |
 
 ### Other planned playbooks (each inherits the same shape)
@@ -38,7 +40,7 @@
 
 All are stubs in `book/src/` showing "Coming soon." Bootstrap recipe: see root `README.md`.
 
-## Chapter Matrix
+## Chapter Matrix — 28 chapters, 7 parts, 5 failure modes + 4 mental models + 3 frameworks each
 
 | # | Chapter | Status |
 |---|---------|--------|
@@ -59,23 +61,30 @@ All are stubs in `book/src/` showing "Coming soon." Bootstrap recipe: see root `
 | 15 | AI Strategy and Roadmapping at Company Scale | ✅ Written (13KB) |
 | 16 | Build a Compelling AI Business Case | ✅ Written (13KB) |
 | 17 | Pricing, Packaging, and GTM for AI Features | ✅ Written (12KB) |
-| 18 | Org Design and Team Topologies for AI | 🚧 Stub |
-| 19 | Hiring, Onboarding, and Growing AI Talent | 🚧 Stub |
-| 20 | Performance Management and Career Frames | 🚧 Stub |
-| 21 | Influencing Without Authority and Executive Communication | 🚧 Stub |
-| 22 | Responsible AI Frameworks and Practice | 🚧 Stub |
-| 23 | The Regulatory Landscape (EU AI Act, NIST, Sector Rules) | 🚧 Stub |
-| 24 | Crisis Response for AI Failures | 🚧 Stub |
-| 25 | Auditability and the Audit Trail | 🚧 Stub |
-| 26 | 30/60/90 Simulation | 🚧 Stub |
-| 27 | The Portfolio Map (Artifact → Interview Question) | 🚧 Stub |
-| 28 | System Design Appendix for AI Directors | 🚧 Stub |
+| 18 | Org Design and Team Topologies for AI | ✅ Written (13KB) |
+| 19 | Hiring, Onboarding, and Growing AI Talent | ✅ Written (14KB) |
+| 20 | Performance Management and Career Frames | ✅ Written (15KB) |
+| 21 | Influencing Without Authority and Executive Communication | ✅ Written (14KB) |
+| 22 | Responsible AI Frameworks and Practice | ✅ Written (13KB) |
+| 23 | The Regulatory Landscape (EU AI Act, NIST, Sector Rules) | ✅ Written (14KB) |
+| 24 | Crisis Response for AI Failures | ✅ Written (13KB) |
+| 25 | Auditability and the Audit Trail | ✅ Written (13KB) |
+| 26 | 30/60/90 Simulation | ✅ Written (13KB) |
+| 27 | The Portfolio Map (Artifact → Interview Question) | ✅ Written (13KB) |
+| 28 | System Design Appendix for AI Directors | ✅ Written (14KB) |
+
+**Total:** 28 chapters × ~13KB ≈ **360KB of structured prose**.
+
+## Exercise Bundles
+
+19 chapter bundles × 4 files each (README + drill + template + worked-example) = **76 exercise files**. Each bundle includes the drill prompt, a fillable template, and a pointer to the chapter's worked example.
 
 ## Known issues / history
 
-- **Data loss event 2026-06-23.** A `write_file` tool truncation created a junk directory at a malformed path; `rm -rf ~/Downloads/career-playbook*` matched both the junk dir and the real `career-playbooks/`, deleting everything. Rebuilt from session context. Cost numbers in worked examples re-verified against `cost_estimator.py` output as part of the rebuild. Original git commit (Phase 0 + Ch 1–2) preserved in repo history; Phase 1 expanded to Ch 1–9 in subsequent commits.
+- **Data loss event 2026-06-23 (AM).** A `write_file` tool truncation created a junk directory at a malformed path; `rm -rf ~/Downloads/career-playbook*` matched both the junk dir and the real `career-playbooks/`, deleting everything. Rebuilt from session context. Cost numbers in worked examples re-verified against `cost_estimator.py` output as part of the rebuild. Original git commit (Phase 0 + Ch 1–2) preserved in repo history; Phase 1 expanded to Ch 1–9 in subsequent commits.
 - **mdBook 0.5.3 schema gotchas** documented in `book.toml` — uses `fold = { level = 1 }`, drops `multilingual`, places `site-url` under `[output.html]`.
-- **publish.py rename (2026-06-23).** Originally mirrored chapters into `<slug>/chapters/` subdir; fixed to mirror flat at `<slug>/chapter-NN.md` to match SUMMARY.md links and the rendered HTML site. The old nested mirror and stale `chapter-NN.html` build artifacts were removed in commit `48a1c69`.
+- **publish.py rename (2026-06-23 PM).** Originally mirrored chapters into `<slug>/chapters/` subdir; fixed to mirror flat at `<slug>/chapter-NN.md` to match SUMMARY.md links and the rendered HTML site. The old nested mirror and stale `chapter-NN.html` build artifacts were removed in commit `48a1c69`.
+- **linter bug fixed (2026-06-23 PM).** Chapter 22 had `## 1. Fairness` etc inside a framework template, which collided with top-level section numbering. Fixed by using `### Dimension 1. Fairness` for sub-headings inside framework templates.
 - **Live site:** https://webmakin.github.io/career-playbooks/ — auto-deployed via `.github/workflows/deploy-book.yml` (lint + build + Pages deploy) on every push to main.
 
 ## Verification gates (the BGFS discipline)
@@ -88,3 +97,13 @@ Every Phase requires these gates to exit 0:
 4. `mdbook build` → site builds to `site/`.
 5. (Phase 1+) Concrete numbers in worked examples match real tool output.
 6. (Phase 1+) Exercise bundle 4-file completeness: `ls <role>-playbook/exercises/chapterNN/{README,drill,template,worked-example}.md`.
+
+## Stats
+
+- **Chapters:** 28 / 28 written (100%)
+- **Exercise bundles:** 19 / 28 chapters have drill prompts (68%)
+- **Total prose:** ~360KB
+- **Total exercise files:** 76
+- **Phases complete:** 4 / 5 (Phase 5 = polish + publish)
+- **CI deploy:** Green (GitHub Actions, every push to main)
+- **Live site:** https://webmakin.github.io/career-playbooks/
