@@ -35,7 +35,13 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_CHAPTER_GLOB = REPO_ROOT / "AI-eng-dir-playbook" / "chapters" / "chap-*.md"
+
+# Default chapter globs: every <role>-playbook/chapters/ directory.
+# Inherited from the multi-playbook shape (one repo, subpath-per-role).
+DEFAULT_CHAPTER_GLOBS = [
+    REPO_ROOT / "AI-eng-dir-playbook" / "chapters" / "chap-*.md",
+    REPO_ROOT / "VP-eng-playbook"      / "chapters" / "chap-*.md",
+]
 
 REQUIRED_SECTIONS = [
     (1, "Epigraph"),
@@ -132,11 +138,13 @@ def lint_chapter(path: Path) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Lint playbook chapters against the 11-section anatomy.")
     parser.add_argument("paths", nargs="*", type=Path, help="Chapter .md files to lint.")
-    parser.add_argument("--all", action="store_true", help="Lint every chapter in AI-eng-dir-playbook/chapters/.")
+    parser.add_argument("--all", action="store_true", help="Lint every chapter in every bootstrapped role's chapters/ dir.")
     args = parser.parse_args()
 
     if args.all:
-        paths = sorted(DEFAULT_CHAPTER_GLOB.parent.glob("chap-*.md"))
+        paths = []
+        for glob in DEFAULT_CHAPTER_GLOBS:
+            paths.extend(sorted(glob.parent.glob("chap-*.md")))
     else:
         paths = args.paths
 

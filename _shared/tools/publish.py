@@ -39,6 +39,7 @@ BOOK_SRC = REPO_ROOT / "src"
 SLUG_MAP: dict[str, str] = {
     "AI-eng-dir-playbook":              "ai-eng-director",
     "engineering-director-playbook":    "engineering-director",
+    "VP-eng-playbook":                  "vp-engineering",
     "vp-engineering-playbook":          "vp-engineering",
     "principal-ai-scientist-playbook":  "principal-ai-scientist",
     "ml-researcher-playbook":           "ml-researcher",

@@ -66,10 +66,66 @@
 - [Chapter 27: The Portfolio Map (Artifact → Interview Question)](./ai-eng-director/chapter-27.md)
 - [Chapter 28: System Design Appendix for AI Directors](./ai-eng-director/chapter-28.md)
 
+---
+
+# VP of Engineering Playbook (in progress — Phase 0)
+
+- [VP of Engineering Playbook](./vp-engineering/README.md)
+
+# Part I — Foundations
+
+- [Chapter 1: What a VP of Engineering Actually Does](./vp-engineering/chapter-01.md)
+- [Chapter 2: The Director-to-VP Category Change](./vp-engineering/chapter-02.md)
+- [Chapter 3: Engineering Leadership Literacy](./vp-engineering/chapter-03.md)
+- [Chapter 4: The Engineering Org at Scale](./vp-engineering/chapter-04.md)
+
+# Part II — The Engineering Spine
+
+- [Chapter 5: Engineering Strategy at Company Scale](./vp-engineering/chapter-05.md)
+- [Chapter 6: Architecture Governance at Scale](./vp-engineering/chapter-06.md)
+- [Chapter 7: Technical Debt Management](./vp-engineering/chapter-07.md)
+- [Chapter 8: Engineering Productivity (DORA / SPACE)](./vp-engineering/chapter-08.md)
+- [Chapter 9: Engineering Quality at Scale](./vp-engineering/chapter-09.md)
+
+# Part III — Platform & Production
+
+- [Chapter 10: Engineering Lifecycle (Discovery to Decommission)](./vp-engineering/chapter-10.md)
+- [Chapter 11: Platform Engineering (Internal Developer Platform)](./vp-engineering/chapter-11.md)
+- [Chapter 12: Reliability, SLOs, and Incident Response at Scale](./vp-engineering/chapter-12.md)
+- [Chapter 13: Security, Privacy, Compliance at Scale](./vp-engineering/chapter-13.md)
+
+# Part IV — Product & Strategy
+
+- [Chapter 14: Engineering and Product Partnership](./vp-engineering/chapter-14.md)
+- [Chapter 15: Engineering Strategy and Roadmaps at Company Scale](./vp-engineering/chapter-15.md)
+- [Chapter 16: Build vs Buy at the Engineering Layer](./vp-engineering/chapter-16.md)
+- [Chapter 17: Engineering Pricing, GTM, and Engineering-as-Revenue](./vp-engineering/chapter-17.md)
+
+# Part V — Leadership
+
+- [Chapter 18: Engineering Org Design at Scale](./vp-engineering/chapter-18.md)
+- [Chapter 19: Hiring, Onboarding, and Growing Engineering Talent](./vp-engineering/chapter-19.md)
+- [Chapter 20: Performance Management and Career Frames](./vp-engineering/chapter-20.md)
+- [Chapter 21: Influencing at the C-Suite](./vp-engineering/chapter-21.md)
+
+# Part VI — Governance & Risk
+
+- [Chapter 22: Engineering Risk Management](./vp-engineering/chapter-22.md)
+- [Chapter 23: Regulatory Landscape for Engineering](./vp-engineering/chapter-23.md)
+- [Chapter 24: Crisis Response at Scale](./vp-engineering/chapter-24.md)
+- [Chapter 25: Engineering Auditability](./vp-engineering/chapter-25.md)
+
+# Part VII — The VPE's Portfolio
+
+- [Chapter 26: 30/60/90 at the VPE Level](./vp-engineering/chapter-26.md)
+- [Chapter 27: The VPE Portfolio Map](./vp-engineering/chapter-27.md)
+- [Chapter 28: System Design Appendix for VPEs](./vp-engineering/chapter-28.md)
+
+---
+
 # Other Playbooks
 
 - [Engineering Director (coming soon)](./engineering-director/README.md)
-- [VP of Engineering (coming soon)](./vp-engineering/README.md)
 - [Principal AI Scientist (coming soon)](./principal-ai-scientist/README.md)
 - [ML Researcher (coming soon)](./ml-researcher/README.md)
 - [AI Engineer (coming soon)](./ai-engineer/README.md)
