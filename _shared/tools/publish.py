@@ -42,6 +42,7 @@ SLUG_MAP: dict[str, str] = {
     "VP-eng-playbook":                  "vp-engineering",
     "vp-engineering-playbook":          "vp-engineering",
     "FDE-playbook":                     "fde",
+    "engineering-director-playbook":    "engineering-director",
     "fde-playbook":                     "fde",
     "principal-ai-scientist-playbook":  "principal-ai-scientist",
     "ml-researcher-playbook":           "ml-researcher",

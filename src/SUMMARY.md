@@ -23,6 +23,10 @@
 - [Glossary](./fde/glossary.md)
 - [Errata & Known Issues](./fde/errata.md)
 
+# Engineering Director Playbook
+
+- [Engineering Director Playbook](./engineering-director/index.md)
+- [Chapter 1: What an Engineering Director Actually Does](./engineering-director/chapter-01.md)
 # Part I — Foundations
 
 - [Chapter 1: What a Forward Deployed Engineer Actually Does](./fde/chapter-01.md)

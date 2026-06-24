@@ -42,7 +42,8 @@ DEFAULT_CHAPTER_GLOBS = [
     REPO_ROOT / "AI-eng-dir-playbook" / "chapters" / "chap-*.md",
     REPO_ROOT / "VP-eng-playbook"      / "chapters" / "chap-*.md",
     REPO_ROOT / "FDE-playbook"         / "chapters" / "chap-*.md",
-]
+    REPO_ROOT / "engineering-director-playbook" / "chapters" / "chap-*.md",
+]  # Edit here when adding/removing roles
 
 REQUIRED_SECTIONS = [
     (1, "Epigraph"),
