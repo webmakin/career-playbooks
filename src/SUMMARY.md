@@ -18,6 +18,8 @@
 
 # Forward Deployed Engineer Playbook
 
+- [Forward Deployed Engineer Playbook](./fde/index.md)
+
 # Part I — Foundations
 
 - [Chapter 1: What a Forward Deployed Engineer Actually Does](./fde/chapter-01.md)
