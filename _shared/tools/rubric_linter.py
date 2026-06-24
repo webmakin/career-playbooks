@@ -41,6 +41,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_CHAPTER_GLOBS = [
     REPO_ROOT / "AI-eng-dir-playbook" / "chapters" / "chap-*.md",
     REPO_ROOT / "VP-eng-playbook"      / "chapters" / "chap-*.md",
+    REPO_ROOT / "FDE-playbook"         / "chapters" / "chap-*.md",
 ]
 
 REQUIRED_SECTIONS = [

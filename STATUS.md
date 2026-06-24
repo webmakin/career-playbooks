@@ -40,6 +40,7 @@ Released 2026-06-23. 28 chapters, 7 parts, ~360KB prose, 19 exercise bundles (76
 | Role | Slug | Notes |
 |---|---|---|
 | Engineering Director (non-AI) | engineering-director | Most overlap with AI Eng Director |
+| Forward Deployed Engineer | fde | Customer-embedded senior IC; engineering + product at the customer edge |
 | Principal AI Scientist | principal-ai-scientist | Research-track, less people-mgmt |
 | ML Researcher | ml-researcher | Research-track, mostly IC |
 | AI Engineer (IC) | ai-engineer | IC track for senior AI builders |

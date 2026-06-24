@@ -8,13 +8,64 @@
 
 # Career Playbooks
 
-- [AI Engineering Director Playbook](./ai-eng-director/README.md)
-- [VP of Engineering Playbook](./vp-engineering/README.md)
-- [Engineering Director Playbook](./engineering-director/README.md)
-- [Principal AI Scientist Playbook](./principal-ai-scientist/README.md)
-- [ML Researcher Playbook](./ml-researcher/README.md)
-- [AI Engineer Playbook](./ai-engineer/README.md)
-- [Staff Engineer Playbook](./staff-engineer/README.md)
+# Other Playbooks
+
+- [Engineering Director (coming soon)](./engineering-director/README.md)
+- [Principal AI Scientist (coming soon)](./principal-ai-scientist/README.md)
+- [ML Researcher (coming soon)](./ml-researcher/README.md)
+- [AI Engineer (coming soon)](./ai-engineer/README.md)
+- [Staff Engineer (coming soon)](./staff-engineer/README.md)
+
+# Forward Deployed Engineer Playbook
+
+# Part I — Foundations
+
+- [Chapter 1: What a Forward Deployed Engineer Actually Does](./fde/chapter-01.md)
+- [Chapter 2: The IC-to-FDE Category Change](./fde/chapter-02.md)
+- [Chapter 3: The Customer Edge](./fde/chapter-03.md)
+- [Chapter 4: The Product Edge](./fde/chapter-04.md)
+
+# Part II — The FDE Technical Spine
+
+- [Chapter 5: The Deployment Stack](./fde/chapter-05.md)
+- [Chapter 6: Data Engineering for FDEs](./fde/chapter-06.md)
+- [Chapter 7: ML/AI Systems for FDEs](./fde/chapter-07.md)
+- [Chapter 8: Integration Patterns](./fde/chapter-08.md)
+- [Chapter 9: Performance, Cost, and Scale at the Customer](./fde/chapter-09.md)
+
+# Part III — Customer & Deployment
+
+- [Chapter 10: The Deployment Methodology](./fde/chapter-10.md)
+- [Chapter 11: The Customer Relationship](./fde/chapter-11.md)
+- [Chapter 12: Crisis at the Customer Site](./fde/chapter-12.md)
+- [Chapter 13: Hand-off and Renewal](./fde/chapter-13.md)
+
+# Part IV — Product & Strategy
+
+- [Chapter 14: The FDE-PM Partnership](./fde/chapter-14.md)
+- [Chapter 15: The FDE Feedback Loop](./fde/chapter-15.md)
+- [Chapter 16: The FDE's Influence on Product Strategy](./fde/chapter-16.md)
+- [Chapter 17: The FDE as a Product Leader](./fde/chapter-17.md)
+
+# Part V — Career & Leadership
+
+- [Chapter 18: The FDE Career Ladder](./fde/chapter-18.md)
+- [Chapter 19: Hiring, Onboarding, and Growing FDE Talent](./fde/chapter-19.md)
+- [Chapter 20: FDE Performance Management](./fde/chapter-20.md)
+- [Chapter 21: FDE Leadership Without Authority](./fde/chapter-21.md)
+
+# Part VI — Governance & Risk
+
+- [Chapter 22: Customer Data Governance](./fde/chapter-22.md)
+- [Chapter 23: Security and Compliance at the Customer](./fde/chapter-23.md)
+- [Chapter 24: FDE Crisis Response](./fde/chapter-24.md)
+- [Chapter 25: The FDE Audit Trail](./fde/chapter-25.md)
+
+# Part VII — The FDE's Portfolio
+
+- [Chapter 26: 30/60/90 as an FDE](./fde/chapter-26.md)
+- [Chapter 27: The FDE Portfolio Map](./fde/chapter-27.md)
+- [Chapter 28: System Design Appendix for FDEs](./fde/chapter-28.md)
 
 ---
 
