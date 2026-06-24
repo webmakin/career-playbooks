@@ -19,6 +19,9 @@
 # Forward Deployed Engineer Playbook
 
 - [Forward Deployed Engineer Playbook](./fde/index.md)
+- [Preface: How to Read This Book](./fde/preface.md)
+- [Glossary](./fde/glossary.md)
+- [Errata & Known Issues](./fde/errata.md)
 
 # Part I — Foundations
 
