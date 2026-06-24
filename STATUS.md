@@ -1,6 +1,6 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-23 — **AI Eng Director v1.0.0 RELEASED.** **VP of Engineering Phase 1 + 2 complete (9/28 chapters written).**
+> **Last updated:** 2026-06-23 — **AI Eng Director v1.0.0 RELEASED.** **VP of Engineering Phase 1 + 2 + 3 complete (13/28 chapters written).**
 
 ## Released
 
@@ -10,35 +10,29 @@ Released 2026-06-23. 28 chapters, 7 parts, ~360KB prose, 19 exercise bundles (76
 
 ## In Progress
 
-### VP of Engineering Playbook — Phase 1 + 2 complete
+### VP of Engineering Playbook — Phase 1 + 2 + 3 complete
 
 | Phase | Description | Status |
 |---|---|---|
 | 0 | Skeleton (28 stub chapters + bootstrap) | ✅ Complete (2026-06-23) |
 | 1 | Chapters 1–4 (Foundations) | ✅ Complete (2026-06-23) |
 | 2 | Chapters 5–9 (The Engineering Spine) | ✅ Complete (2026-06-23) |
-| 3 | Chapters 10–13 (Platform & Production) | 🚧 Next |
-| 4 | Chapters 14–17 (Product & Strategy) | ⏳ Pending |
+| 3 | Chapters 10–13 (Platform & Production) | ✅ Complete (2026-06-23) |
+| 4 | Chapters 14–17 (Product & Strategy) | 🚧 Next |
 | 5 | Chapters 18–21 (Leadership at scale) | ⏳ Pending |
 | 6 | Chapters 22–25 (Governance & Risk) | ⏳ Pending |
 | 7 | Chapters 26–28 (The VPE's Portfolio) | ⏳ Pending |
 | 8 | Polish, review, publish | ⏳ Pending |
 
-**Phase 1 + 2 deliverables (just shipped):**
-- Ch 1: What a VP of Engineering Actually Does (5 failure modes, 4 mental models, 3 frameworks, 90-min drill + worked example + rubric)
-- Ch 2: The Director-to-VP Category Change (5 failure modes, 4 mental models, 3 frameworks, 90-min drill)
-- Ch 3: Engineering Leadership Literacy (5 failure modes, 4 mental models, 3 frameworks, 90-min drill)
-- Ch 4: The Engineering Org at Scale (5 failure modes, 4 mental models, 3 frameworks, 90-min drill)
-- Ch 5: Engineering Strategy at Company Scale (5-Question Frame, 1-page memo, bet-catalogue, decline list)
-- Ch 6: Architecture Governance at Scale (3-tier standards, ARB, adoption metrics)
-- Ch 7: Technical Debt Management (4-quadrant model, cost-of-carry, 10% quota)
-- Ch 8: Engineering Productivity (DORA 4 + SPACE 5, 3-metric rule, anti-gaming layer)
-- Ch 9: Engineering Quality at Scale (3-tier quality, 4 reliability SLOs, IRB, customer narrative)
-- 9 exercise bundles (drill + template + worked-example + README each) = 36 exercise files
+**Phase 1 + 2 + 3 deliverables (just shipped):**
+- Part I — Foundations (Ch 1–4): VPE role, Director-to-VP shift, 5 literacies, scale bands
+- Part II — Engineering Spine (Ch 5–9): strategy memo, ARB, tech debt portfolio, DORA/SPACE, 4 SLOs
+- Part III — Platform & Production (Ch 10–13): 6-stage lifecycle, IDP, reliability/incidents, security/compliance
+- 13 exercise bundles (drill + template + worked-example + README each) = 52 exercise files
 - `rubric_linter --all`: 56/56 PASS (28 AI + 28 VP, all linter-clean)
-- mdbook build: clean, 9 VP chapters render at 43-47KB each (vs 30KB stubs)
+- mdbook build: clean, 13 VP chapters render at 43-47KB each (vs 30KB stubs)
 
-**Target:** v1.0.0 in ~24 weeks at the current pace (4-5 chapters per Phase batch, with Part check-ins).
+**Target:** v1.0.0 in ~21 weeks at the current pace (4 chapters per Phase batch, with Part check-ins).
 
 ## Planned (no work started)
 
