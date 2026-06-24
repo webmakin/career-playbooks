@@ -1,6 +1,6 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-23 — **AI Eng Director v1.0.0 RELEASED.** **VP of Engineering Phase 1 + 2 + 3 + 4 complete (17/28 chapters written).**
+> **Last updated:** 2026-06-24 — **AI Eng Director v1.0.0 RELEASED.** **VP of Engineering Phase 1 + 2 + 3 + 4 + 5 complete (21/28 chapters written).** **FDE Phase 0 complete (28 stub chapters).**
 
 ## Released
 
@@ -10,7 +10,7 @@ Released 2026-06-23. 28 chapters, 7 parts, ~360KB prose, 19 exercise bundles (76
 
 ## In Progress
 
-### VP of Engineering Playbook — Phase 1 + 2 + 3 + 4 complete
+### VP of Engineering Playbook — Phase 1 + 2 + 3 + 4 + 5 complete
 
 | Phase | Description | Status |
 |---|---|---|
@@ -19,21 +19,22 @@ Released 2026-06-23. 28 chapters, 7 parts, ~360KB prose, 19 exercise bundles (76
 | 2 | Chapters 5–9 (The Engineering Spine) | ✅ Complete (2026-06-23) |
 | 3 | Chapters 10–13 (Platform & Production) | ✅ Complete (2026-06-23) |
 | 4 | Chapters 14–17 (Product & Strategy) | ✅ Complete (2026-06-23) |
-| 5 | Chapters 18–21 (Leadership at scale) | 🚧 Next |
-| 6 | Chapters 22–25 (Governance & Risk) | ⏳ Pending |
+| 5 | Chapters 18–21 (Leadership at scale) | ✅ Complete (2026-06-24) |
+| 6 | Chapters 22–25 (Governance & Risk) | 🚧 Next |
 | 7 | Chapters 26–28 (The VPE's Portfolio) | ⏳ Pending |
 | 8 | Polish, review, publish | ⏳ Pending |
 
-**Phase 1 + 2 + 3 + 4 deliverables (just shipped):**
+**Phase 1 + 2 + 3 + 4 + 5 deliverables (just shipped):**
 - Part I — Foundations (Ch 1–4): VPE role, Director-to-VP shift, 5 literacies, scale bands
 - Part II — Engineering Spine (Ch 5–9): strategy memo, ARB, tech debt portfolio, DORA/SPACE, 4 SLOs
 - Part III — Platform & Production (Ch 10–13): 6-stage lifecycle, IDP, reliability/incidents, security/compliance
 - Part IV — Product & Strategy (Ch 14–17): VPE-CPO partnership, 3-layer strategy-roadmap-OKR, build-vs-buy, engineering-as-revenue
-- 17 exercise bundles (drill + template + worked-example + README each) = 68 exercise files
-- `rubric_linter --all`: 56/56 PASS (28 AI + 28 VP, all linter-clean)
-- mdbook build: clean, 17 VP chapters render at 44-47KB each (vs 30KB stubs)
+- Part V — Leadership at scale (Ch 18–21): org design (5-topology model), hiring (3-layer system), perf (5-level ladder, 5-dim rubric), C-suite influence (4-relationship system)
+- 21 exercise bundles (drill + template + worked-example + README each) = 84 exercise files
+- `rubric_linter --all`: 84/84 PASS (28 AI + 28 VP-eng + 28 FDE)
+- mdbook build: clean, 21 VP chapters render at 44-54KB each (vs 30KB stubs)
 
-**Target:** v1.0.0 in ~17 weeks at the current pace (4 chapters per Phase batch, with Part check-ins).
+**Target:** v1.0.0 in ~13 weeks at the current pace (4 chapters per Phase batch, with Part check-ins).
 
 ## Planned (no work started)
 
