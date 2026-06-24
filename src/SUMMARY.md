@@ -8,11 +8,18 @@
 
 # Career Playbooks
 
+- [AI Engineering Director Playbook](./ai-eng-director/README.md)
+- [VP of Engineering Playbook](./vp-engineering/README.md)
+- [Engineering Director Playbook](./engineering-director/README.md)
+- [Principal AI Scientist Playbook](./principal-ai-scientist/README.md)
+- [ML Researcher Playbook](./ml-researcher/README.md)
+- [AI Engineer Playbook](./ai-engineer/README.md)
+- [Staff Engineer Playbook](./staff-engineer/README.md)
+
 ---
 
 # AI Engineering Director Playbook
 
-- [AI Engineering Director Playbook](./ai-eng-director/README.md)
 - [Preface: How to Read This Book](./ai-eng-director/preface.md)
 - [Glossary](./ai-eng-director/glossary.md)
 - [Errata & Known Issues](./ai-eng-director/errata.md)
@@ -70,8 +77,6 @@
 
 # VP of Engineering Playbook (in progress — Phase 0)
 
-- [VP of Engineering Playbook](./vp-engineering/README.md)
-
 # Part I — Foundations
 
 - [Chapter 1: What a VP of Engineering Actually Does](./vp-engineering/chapter-01.md)
@@ -121,12 +126,4 @@
 - [Chapter 27: The VPE Portfolio Map](./vp-engineering/chapter-27.md)
 - [Chapter 28: System Design Appendix for VPEs](./vp-engineering/chapter-28.md)
 
----
 
-# Other Playbooks
-
-- [Engineering Director (coming soon)](./engineering-director/README.md)
-- [Principal AI Scientist (coming soon)](./principal-ai-scientist/README.md)
-- [ML Researcher (coming soon)](./ml-researcher/README.md)
-- [AI Engineer (coming soon)](./ai-engineer/README.md)
-- [Staff Engineer (coming soon)](./staff-engineer/README.md)

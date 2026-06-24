@@ -3,12 +3,12 @@
 A 30-second decision tree:
 
 - **Are you targeting Director or Head of AI?** → [AI Engineering Director](../ai-eng-director/README.md)
-- **Are you targeting Director in any function?** → Engineering Director (coming soon)
-- **VP / SVP?** → VP of Engineering (coming soon)
-- **Principal / Distinguished Engineer (AI research-adjacent)?** → Principal AI Scientist (coming soon)
-- **Research-track ML?** → ML Researcher (coming soon)
-- **IC, shipping AI features?** → AI Engineer (coming soon)
-- **Staff Engineer, general track?** → Staff Engineer (coming soon)
+- **Are you targeting Director in any function?** → [Engineering Director](../engineering-director/README.md)
+- **VP / SVP?** → [VP of Engineering](../vp-engineering/README.md)
+- **Principal / Distinguished Engineer (AI research-adjacent)?** → [Principal AI Scientist](../principal-ai-scientist/README.md)
+- **Research-track ML?** → [ML Researcher](../ml-researcher/README.md)
+- **IC, shipping AI features?** → [AI Engineer](../ai-engineer/README.md)
+- **Staff Engineer, general track?** → [Staff Engineer](../staff-engineer/README.md)
 
 If you're not sure which one to pick, ask yourself:
 
