@@ -150,6 +150,9 @@
 # Engineering Director Playbook
 
 - [Engineering Director Playbook](./engineering-director/index.md)
+- [Preface: How to Read This Book](./engineering-director/preface.md)
+- [Glossary](./engineering-director/glossary.md)
+- [Errata & Known Issues](./engineering-director/errata.md)
 - [Chapter 1: What an Engineering Director Actually Does](./engineering-director/chapter-01.md)
 - [Chapter 2: The IC-to-ED Category Change](./engineering-director/chapter-02.md)
 - [Chapter 3: Engineering Org Design Basics](./engineering-director/chapter-03.md)
