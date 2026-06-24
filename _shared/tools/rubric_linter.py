@@ -43,6 +43,10 @@ DEFAULT_CHAPTER_GLOBS = [
     REPO_ROOT / "VP-eng-playbook"      / "chapters" / "chap-*.md",
     REPO_ROOT / "FDE-playbook"         / "chapters" / "chap-*.md",
     REPO_ROOT / "engineering-director-playbook" / "chapters" / "chap-*.md",
+    REPO_ROOT / "principal-ai-scientist-playbook" / "chapters" / "chap-*.md",
+    REPO_ROOT / "ml-researcher-playbook" / "chapters" / "chap-*.md",
+    REPO_ROOT / "ai-engineer-playbook" / "chapters" / "chap-*.md",
+    REPO_ROOT / "staff-engineer-playbook" / "chapters" / "chap-*.md",
 ]  # Edit here when adding/removing roles
 
 REQUIRED_SECTIONS = [
