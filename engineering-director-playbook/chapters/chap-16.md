@@ -3,23 +3,23 @@
 
 # Build vs Buy at the Engineering Layer
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why EDs Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The ED owns build vs buy decisions. The 4-factor decision framework, 3 buy scenarios, and 5-criterion build quality bar are the ED's reference for build vs buy."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The ED owns build vs buy decisions. The 4-factor decision framework, 3 buy scenarios, and 5-criterion build quality bar are the ED's reference for build vs buy._
 
 ---
 
 ## 2. Problem
 
-You are an Engineering Director at acme-corp. You have 3-5 engineering managers reporting to you, 15-30 engineers in total, and a 90-day runway to deliver on the FY26 commitments.
+You are an Engineering Director at acme-corp. The VP has told you: 5 build vs buy decisions this quarter. $2M budget.
 
-This chapter will tell you what the build vs buy at the engineering layer discipline is, the 3-5 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ED from a non-portfolio ED.
+This chapter tells you what the build vs buy at the engineering layer discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ED from a non-portfolio ED.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _TBD_
 
 ---
 
@@ -27,47 +27,81 @@ This chapter will tell you what the build vs buy at the engineering layer discip
 
 Five named failure modes of EDs whose build vs buy at the engineering layer produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-factors-Failure.** TBD in narrative.
+- **The No-scenarios-Failure.** TBD in narrative.
+- **The No-trade-offs-Failure.** TBD in narrative.
+- **The No-criteria-Failure.** TBD in narrative.
+- **The No-Decision Matrix-Failure.** TBD in narrative.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the build vs buy at the engineering layer discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress the build vs buy at the engineering layer discipline.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: factors.** TBD.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: scenarios.** TBD.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: trade-offs.** TBD.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: criteria.** TBD.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for build vs buy at the engineering layer. Each will have a 1-page template in v1.0.0._
+Three reusable frameworks for build vs buy at the engineering layer.
 
-### Framework 1: TBD
+### Framework 1: The Decision Matrix Template
 
-_TBD._
+```
+# Decision Matrix — [Date]
 
-### Framework 2: TBD
+## The 4-5 dimensions
+1. [Dim 1]
+2. [Dim 2]
+3. [Dim 3]
+4. [Dim 4]
 
-_TBD._
+## The 1 thing the ED will focus on
+[1 sentence.]
+```
 
-### Framework 3: TBD
+### Framework 2: The Build vs Buy Memo Plan
 
-_TBD._
+```
+# Build vs Buy Memo — [Date]
+
+## Top 3 priorities
+1. [P 1]
+2. [P 2]
+3. [P 3]
+
+## The 1 thing the ED will NOT do
+[1 sentence.]
+```
+
+### Framework 3: The TCO Tracker Tracker
+
+```
+# TCO Tracker — [Quarter]
+
+| Item | Status | Owner |
+|------|--------|-------|
+| [Item 1] | [Status] | [Owner] |
+| [Item 2] | [Status] | [Owner] |
+| [Item 3] | [Status] | [Owner] |
+
+## The 1 thing the ED will repeat next quarter
+[1 sentence.]
+```
 
 ---
 
 ## 6. Drill
+
+You are an ED at **acme-corp**. The VP has told you: 5 build vs buy decisions this quarter. $2M budget.
 
 You have **90 minutes**. Produce the **Build vs Buy at the Engineering Layer artifact** (`portfolio/chapter-16-build-vs-buy-at-the-engineering-layer.md`) using the 3 frameworks above. Specify: TBD.
 
@@ -77,13 +111,18 @@ You have **90 minutes**. Produce the **Build vs Buy at the Engineering Layer art
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+TBD
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An ED at a 200-person B2B AI company had a build vs buy at the engineering layer failure. The replacement ED did 3 things:
+1. TBD
+2. TBD
+3. TBD
+
+The 4 mental models + 3 frameworks + 5-criterion bar was the discipline.
 
 ---
 
@@ -91,11 +130,11 @@ _TBD in v1.0.0._
 
 | # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
 |---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **Dim 1** | TBD | TBD | TBD |
+| 2 | **Dim 2** | TBD | TBD | TBD |
+| 3 | **Dim 3** | TBD | TBD | TBD |
+| 4 | **Dim 4** | TBD | TBD | TBD |
+| 5 | **Dim 5** | TBD | TBD | TBD |
 
 **Disqualifier:** TBD.
 

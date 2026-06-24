@@ -3,23 +3,23 @@
 
 # Engineering Incident Response and On-Call
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why EDs Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The ED owns incident response. The 4-phase playbook, 3-tier on-call, and 5-criterion incident quality bar are the ED's reference for engineering incident response."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The ED owns incident response. The 4-phase playbook, 3-tier on-call, and 5-criterion incident quality bar are the ED's reference for engineering incident response._
 
 ---
 
 ## 2. Problem
 
-You are an Engineering Director at acme-corp. You have 3-5 engineering managers reporting to you, 15-30 engineers in total, and a 90-day runway to deliver on the FY26 commitments.
+You are an Engineering Director at acme-corp. The VP has told you: a major outage happened. MTTR is 4 hours.
 
-This chapter will tell you what the engineering incident response and on-call discipline is, the 3-5 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ED from a non-portfolio ED.
+This chapter tells you what the engineering incident response and on-call discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ED from a non-portfolio ED.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _TBD_
 
 ---
 
@@ -27,47 +27,81 @@ This chapter will tell you what the engineering incident response and on-call di
 
 Five named failure modes of EDs whose engineering incident response and on-call produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-playbook-Failure.** TBD in narrative.
+- **The No-tiers-Failure.** TBD in narrative.
+- **The No-postmortem-Failure.** TBD in narrative.
+- **The No-SLO-Failure.** TBD in narrative.
+- **The No-Incident Playbook-Failure.** TBD in narrative.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the engineering incident response and on-call discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress the engineering incident response and on-call discipline.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: playbook.** TBD.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: tiers.** TBD.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: postmortem.** TBD.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: SLO.** TBD.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for engineering incident response and on-call. Each will have a 1-page template in v1.0.0._
+Three reusable frameworks for engineering incident response and on-call.
 
-### Framework 1: TBD
+### Framework 1: The Incident Playbook Template
 
-_TBD._
+```
+# Incident Playbook — [Date]
 
-### Framework 2: TBD
+## The 4-5 dimensions
+1. [Dim 1]
+2. [Dim 2]
+3. [Dim 3]
+4. [Dim 4]
 
-_TBD._
+## The 1 thing the ED will focus on
+[1 sentence.]
+```
 
-### Framework 3: TBD
+### Framework 2: The On-Call Rotation Plan
 
-_TBD._
+```
+# On-Call Rotation — [Date]
+
+## Top 3 priorities
+1. [P 1]
+2. [P 2]
+3. [P 3]
+
+## The 1 thing the ED will NOT do
+[1 sentence.]
+```
+
+### Framework 3: The Postmortem Tracker Tracker
+
+```
+# Postmortem Tracker — [Quarter]
+
+| Item | Status | Owner |
+|------|--------|-------|
+| [Item 1] | [Status] | [Owner] |
+| [Item 2] | [Status] | [Owner] |
+| [Item 3] | [Status] | [Owner] |
+
+## The 1 thing the ED will repeat next quarter
+[1 sentence.]
+```
 
 ---
 
 ## 6. Drill
+
+You are an ED at **acme-corp**. The VP has told you: a major outage happened. MTTR is 4 hours.
 
 You have **90 minutes**. Produce the **Engineering Incident Response and On-Call artifact** (`portfolio/chapter-13-engineering-incident-response-and-on-call.md`) using the 3 frameworks above. Specify: TBD.
 
@@ -77,13 +111,18 @@ You have **90 minutes**. Produce the **Engineering Incident Response and On-Call
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+TBD
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An ED at a 200-person B2B AI company had a engineering incident response and on-call failure. The replacement ED did 3 things:
+1. TBD
+2. TBD
+3. TBD
+
+The 4 mental models + 3 frameworks + 5-criterion bar was the discipline.
 
 ---
 
@@ -91,11 +130,11 @@ _TBD in v1.0.0._
 
 | # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
 |---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **Dim 1** | TBD | TBD | TBD |
+| 2 | **Dim 2** | TBD | TBD | TBD |
+| 3 | **Dim 3** | TBD | TBD | TBD |
+| 4 | **Dim 4** | TBD | TBD | TBD |
+| 5 | **Dim 5** | TBD | TBD | TBD |
 
 **Disqualifier:** TBD.
 
