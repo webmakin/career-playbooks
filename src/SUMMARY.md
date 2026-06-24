@@ -128,7 +128,12 @@
 
 ---
 
-# VP of Engineering Playbook (in progress — Phase 0)
+# VP of Engineering Playbook
+
+- [VP of Engineering Playbook](./vp-engineering/README.md)
+- [Preface: How to Read This Book](./vp-engineering/preface.md)
+- [Glossary](./vp-engineering/glossary.md)
+- [Errata & Known Issues](./vp-engineering/errata.md)
 
 # Part I — Foundations
 
