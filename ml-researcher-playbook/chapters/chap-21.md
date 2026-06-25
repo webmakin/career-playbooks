@@ -1,103 +1,156 @@
 # ML Researcher Playbook
 ## Chapter 21
 
-# Influencing the AI Research Community
+# Influencing at the Research Function
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why ML Researchers Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The MLR influences across the research function. The 4 stakeholder groups, the 3 influence patterns, and the 5-criterion influence quality bar are the MLR's reference for influence at the contributor level."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The MLR influences across the research function. The 4 stakeholder groups, the 3 influence patterns, and the 5-criterion influence quality bar are the MLR's reference for influence at the contributor level._
 
 ---
 
 ## 2. Problem
 
-You are a ML Researcher at acme-corp. Influencing the AI Research Community is one of the ML Researcher-only disciplines.
+You are an MLR at acme-corp. The senior scientist has just told you: "influencing at the research function. 30-day timeline."
 
-This chapter will tell you what the influencing the ai research community discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ML Researcher from a non-portfolio ML Researcher.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _MLR research influence is a 4-stakeholder system + 3 influence patterns + 5-criterion bar; the MLR's job is to identify stakeholders, choose patterns, and own the research voice._
 
 ---
 
-## 3. Why ML Researchers Fail Here
+## 3. Why MLRs Fail Here
 
-Five named failure modes of ML Researchers whose influencing the ai research community produced zero results.
+Five named failure modes of MLRs whose influencing at the research function produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-Stakeholder-Map Failure.** No stakeholder map.
+- **The Slack-Channel Failure.** Drops research in Slack.
+- **The No-Framework Failure.** Opinions, not frameworks.
+- **The No-Data Failure.** Opinions, not data.
+- **The No-Relationship Failure.** Only talks in crisis.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the influencing the ai research community discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress influencing at the research function.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 4 Stakeholder Groups:** 4 groups: senior scientist + collaborators + eng + customers.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 3 Influence Patterns:** 3 patterns: data + framework + relationship.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 5-Criterion Bar:** 5 criteria: specific + aligned + timed + owned + reusable.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The Stakeholder Map:** Per-group detail.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for influencing the ai research community. Each will have a 1-page template in v1.0.0._
+Three frameworks for influencing at the research function.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# Influencing at the Research Function - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the MLR will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **Influencing the AI Research Community artifact** (`portfolio/chapter-21-influencing-the-ai-research-community.md`) using the 3 frameworks above. Specify: TBD.
+You are an MLR at **acme-corp**. The senior scientist has given you 30 days to design the influencing at the research function system.
 
-**Deliverable:** `portfolio/chapter-21-influencing-the-ai-research-community.md` — under 1500 words.
+You have **90 minutes**. Produce the **influencing at the research function redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the senior scientist in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-21-mlr-mlr-influence.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page stakeholder map:**
+
+```
+# MLR Stakeholder Map - 2026-09-01
+
+## The 4 groups
+1. Senior scientist (weekly 1:1)
+2. Collaborators (monthly)
+3. Eng (weekly)
+4. Customers (quarterly)
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An MLR at a 200-person B2B AI company had no stakeholder map. Dropped research in Slack. The senior scientist was out of the loop. 0 papers.
+
+What the first MLR missed: influencing at the research function is a system. The first MLR had no system. The second MLR had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the MLR who has the system has influencing at the research function. The MLR who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **4 stakeholder groups** | 1-2 | 3 | 4 groups |
+| 2 | **3 influence patterns** | 1 | 2 | 3 patterns |
+| 3 | **5-criterion bar** | 0-2 | 3-4 | 5 criteria |
+| 4 | **Time in meetings** | >40% | 25-40% | <20% |
+| 5 | **Influence outcomes** | None | 1-2 wins | 3+ wins/quarter |
 
-**Disqualifier:** TBD.
+
+**Disqualifier:** any 1 on dimension 1 or 3. An MLR who has 1-2 groups or 1 pattern is in the No-Stakeholder-Map or Slack-Channel failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +158,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-21-influencing-the-ai-research-community.md` — interview evidence for influencing the ai research community (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-21-mlr-mlr-influence.md` - interview evidence for "Walk me through your influence system." (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your influence system.**
+2. **The senior scientist ignores your input. What do you do?**
+3. **You spend 30% of time in meetings. What do you do?**
+4. **The CEO never heard from you. What do you do?**
+5. **Walk me through an influence win you've had.**

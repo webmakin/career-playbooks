@@ -50,6 +50,9 @@
 # ML Researcher Playbook
 
 - [ML Researcher Playbook](./ml-researcher/index.md)
+- [Preface: How to Read This Book](./ml-researcher/preface.md)
+- [Glossary](./ml-researcher/glossary.md)
+- [Errata & Known Issues](./ml-researcher/errata.md)
 - [Chapter 1: What an ML Researcher Actually Does](./ml-researcher/chapter-01.md)
 - [Chapter 2: The SWE-to-ML-Researcher Category Change](./ml-researcher/chapter-02.md)
 - [Chapter 3: Research Direction and Domain Selection](./ml-researcher/chapter-03.md)

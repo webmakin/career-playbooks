@@ -1,103 +1,156 @@
 # ML Researcher Playbook
 ## Chapter 25
 
-# Model Auditability and Eval
+# MLR Auditability and Decision Logs
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why ML Researchers Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The MLR owns decision logs. The 4 decision-log pillars, the 3 audit cycles, and the 5-criterion audit quality bar; the MLR's job is to write ADRs, log experiments, and own the documentation."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The MLR owns decision logs. The 4 decision-log pillars, the 3 audit cycles, and the 5-criterion audit quality bar; the MLR's job is to write ADRs, log experiments, and own the documentation._
 
 ---
 
 ## 2. Problem
 
-You are a ML Researcher at acme-corp. Model Auditability and Eval is one of the ML Researcher-only disciplines.
+You are an MLR at acme-corp. The senior scientist has just told you: "mlr auditability and decision logs. 30-day timeline."
 
-This chapter will tell you what the model auditability and eval discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio ML Researcher from a non-portfolio ML Researcher.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _MLR auditability is a 4-pillar system + 3 audit cycles + 5-criterion bar; the MLR's job is to write ADRs, log experiments, and own the documentation._
 
 ---
 
-## 3. Why ML Researchers Fail Here
+## 3. Why MLRs Fail Here
 
-Five named failure modes of ML Researchers whose model auditability and eval produced zero results.
+Five named failure modes of MLRs whose mlr auditability and decision logs produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-ADR Failure.** No ADRs.
+- **The No-Experiment-Log Failure.** No experiment logs.
+- **The No-Risk-Register Failure.** No risk register.
+- **The Verbals-Only Failure.** Decisions are verbal.
+- **The No-Documentation Failure.** No documentation.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the model auditability and eval discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress mlr auditability and decision logs.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 4 Decision-Log Pillars:** 4 pillars: ADRs + experiment logs + risk register + compliance.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 3 Audit Cycles:** 3 cycles: real-time + quarterly + annual.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 5-Criterion Bar:** 5 criteria: documented + owned + reviewed + archived + auditable.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The ADR Template:** 7 sections.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for model auditability and eval. Each will have a 1-page template in v1.0.0._
+Three frameworks for mlr auditability and decision logs.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# MLR Auditability and Decision Logs - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the MLR will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **Model Auditability and Eval artifact** (`portfolio/chapter-25-model-auditability-and-eval.md`) using the 3 frameworks above. Specify: TBD.
+You are an MLR at **acme-corp**. The senior scientist has given you 30 days to design the mlr auditability and decision logs system.
 
-**Deliverable:** `portfolio/chapter-25-model-auditability-and-eval.md` — under 1500 words.
+You have **90 minutes**. Produce the **mlr auditability and decision logs redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the senior scientist in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-25-mlr-mlr-auditability.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page auditability system:**
+
+```
+# MLR Auditability System - 2026-09-01
+
+## The 4 pillars
+1. ADRs (every decision)
+2. Experiment logs (every experiment)
+3. Risk register
+4. Compliance tracker
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An MLR at a 200-person B2B AI company had no auditability system. ADRs were verbal. Experiment logs missing. Audit failed.
+
+What the first MLR missed: mlr auditability and decision logs is a system. The first MLR had no system. The second MLR had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the MLR who has the system has mlr auditability and decision logs. The MLR who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **4 decision-log pillars** | 0-1 | 2-3 | 4 pillars |
+| 2 | **3 audit cycles** | 1 | 2 | 3 cycles |
+| 3 | **5-criterion bar** | 0-2 | 3-4 | 5 criteria |
+| 4 | **ADR coverage** | <50% | 50-90% | 100% of decisions |
+| 5 | **Experiment log coverage** | <50% | 50-90% | 100% of experiments |
 
-**Disqualifier:** TBD.
+
+**Disqualifier:** any 1 on dimension 1 or 3. An MLR who has 0-1 pillars or 1 cycle is in the No-ADR or Verbals-Only failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +158,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-25-model-auditability-and-eval.md` — interview evidence for model auditability and eval (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-25-mlr-mlr-auditability.md` - interview evidence for "Walk me through your auditability." (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your auditability system.**
+2. **The board wants decision logs. What do you do?**
+3. **AI safety audit failed. What do you do?**
+4. **An experiment decision was verbal. What do you do?**
+5. **Walk me through an ADR you've written.**
