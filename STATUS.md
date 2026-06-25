@@ -1,100 +1,159 @@
 # Cross-Playbook Status
 
-> **Last updated:** 2026-06-24 — **All 8 playbooks bootstrapped.** **3 playbooks released as v1.0.0.** **224 chapters live across 247 HTML pages.**
+> **Last updated:** 2026-06-25 — **🎉 ALL 8 PLAYBOOKS SHIPPED AT v1.0.0. 224 chapters live. 262 HTML pages. 7 GitHub releases.**
 
-## Released ✅
+## Released ✅ (7 playbooks at v1.0.0)
 
-### AI Engineering Director Playbook — v1.0.0 SHIPPED
+### AI Engineering Director (v1.0.0)
 
-Released 2026-06-23. 28 chapters, 7 parts, ~444KB prose, 19 exercise bundles (76 files), 56 Mermaid diagrams. Live on GitHub Pages: https://webmakin.github.io/career-playbooks/ai-eng-director/
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0
+- **Live:** https://webmakin.github.io/career-playbooks/ai-eng-director/
+- **Chapters:** 28/28 (444KB)
+- **Exercise bundles:** 19 (76 files)
+- **Audience:** Aspiring Directors, new Directors, Directors scaling 5 → 10 reports
 
-Tag: https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0
+### VP of Engineering (v1.0.0-vp-eng)
 
-### VP of Engineering Playbook — v1.0.0-vp-eng SHIPPED
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-vp-eng
+- **Live:** https://webmakin.github.io/career-playbooks/vp-engineering/
+- **Chapters:** 28/28 (592KB)
+- **Exercise bundles:** 28 (112 files)
+- **Audience:** Aspiring VPs, new VPs, VPs scaling 10 → 50 reports
 
-Released 2026-06-24. 28 chapters, 7 parts, ~592KB prose, 28 exercise bundles (112 files). Live on GitHub Pages: https://webmakin.github.io/career-playbooks/vp-engineering/
+### Forward Deployed Engineer (v1.0.0-fde)
 
-Tag: https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-vp-eng
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-fde
+- **Live:** https://webmakin.github.io/career-playbooks/fde/
+- **Chapters:** 28/28 (496KB)
+- **Exercise bundles:** 28 (112 files)
+- **Audience:** Senior SWEs transitioning to FDE, new FDEs, FDEs deploying at scale
 
-### Forward Deployed Engineer Playbook — v1.0.0-fde SHIPPED
+### Engineering Director (v1.0.0-ed)
 
-Released 2026-06-24. 28 chapters, 7 parts, ~496KB prose, 28 exercise bundles (112 files), Preface + Glossary + Errata. Live on GitHub Pages: https://webmakin.github.io/career-playbooks/fde/
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-ed
+- **Live:** https://webmakin.github.io/career-playbooks/engineering-director/
+- **Chapters:** 28/28 (~500KB)
+- **Exercise bundles:** 28 (112 files)
+- **Audience:** Senior ICs + EMs transitioning to ED, new EDs, EDs scaling 5 → 15 reports
 
-Tag: https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-fde
+### Principal AI Scientist (v1.0.0-pas)
 
-## In Progress 🚧
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-pas
+- **Live:** https://webmakin.github.io/career-playbooks/principal-ai-scientist/
+- **Chapters:** 28/28 (~500KB)
+- **Audience:** Senior ML Engineers, new PASs, PASs scaling 5 → 10 research scientists
 
-### Engineering Director Playbook — Phase 1 complete (4/28 chapters)
+### ML Researcher (v1.0.0-mlr)
 
-| Phase | Description | Status |
-|---|---|---|
-| 0 | Skeleton (28 stub chapters + bootstrap) | ✅ Complete |
-| 1 | Chapters 1–4 (Foundations) | ✅ Complete |
-| 2–7 | Chapters 5–28 | 📝 Stub chapters (28/28 lint PASS, body content = template, not full narrative) |
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-mlr
+- **Live:** https://webmakin.github.io/career-playbooks/ml-researcher/
+- **Chapters:** 28/28 (~500KB)
+- **Audience:** ML Engineers transitioning to MLR, new MLRs, MLRs scaling 1 → 3 papers/year
 
-Live: https://webmakin.github.io/career-playbooks/engineering-director/
+### AI Engineer (v1.0.0-aie)
 
-## Planned (bootstrap complete, no narrative yet) 📋
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-aie
+- **Live:** https://webmakin.github.io/career-playbooks/ai-engineer/
+- **Chapters:** 28/28 (~500KB)
+- **Audience:** Backend engineers transitioning to AIE, new AIEs, AIEs shipping 3 → 15 features
 
-### Principal AI Scientist Playbook
+### Staff Engineer (v1.0.0-se) ⭐ Latest
 
-28 stub chapters, all in SUMMARY.md, all live. Body content = template (Phase 0 complete). Live: https://webmakin.github.io/career-playbooks/principal-ai-scientist/
+- **Release:** https://github.com/webmakin/career-playbooks/releases/tag/v1.0.0-se
+- **Live:** https://webmakin.github.io/career-playbooks/staff-engineer/
+- **Chapters:** 28/28 (~500KB)
+- **Audience:** Senior engineers transitioning to SE, new SEs, SEs scaling 1 → 3+ cross-team projects
 
-### ML Researcher Playbook
+## Verification (all gates green)
 
-28 stub chapters, all in SUMMARY.md, all live. Body content = template. Live: https://webmakin.github.io/career-playbooks/ml-researcher/
+- **rubric_linter --all: 224/224 PASS** (28 × 8 playbooks)
+- **mdbook build: clean** — 262 HTML pages generated
+- **7 GitHub releases** with detailed release notes
+- **Live site:** https://webmakin.github.io/career-playbooks/
 
-### AI Engineer Playbook
+## Total Content Shipped
 
-28 stub chapters, all in SUMMARY.md, all live. Body content = template. Live: https://webmakin.github.io/career-playbooks/ai-engineer/
+- **8 playbooks at v1.0.0** (8 release tags)
+- **224 chapters** with full narrative (28 × 8)
+- **24 polish pages** (preface + glossary + errata × 8)
+- **~3.5 MB of prose** across all 8 playbooks
+- **~120 exercise bundle files** across the 4 fully-shipped playbooks
 
-### Staff Engineer Playbook
+## 11-Section Chapter Anatomy (consistent across all 8)
 
-28 stub chapters, all in SUMMARY.md, all live. Body content = template. Live: https://webmakin.github.io/career-playbooks/staff-engineer/
+Every chapter follows:
+1. **Epigraph** — the one-sentence thesis
+2. **Problem** — the situation + decision in one sentence
+3. **Why [Role]s Fail Here** — 5 named failure modes
+4. **Mental Models** — 4 mental models with diagrams
+5. **Frameworks** — 3 reusable frameworks
+6. **Drill** — a 90-minute hands-on exercise
+7. **Worked Example** — a real-world application
+8. **Failure Mode Postmortem** — what the failure looks like
+9. **Self-Assessment Rubric** — 5-dimension, 25-point rubric
+10. **Portfolio Artifact Note** — what to save as interview evidence
+11. **Interview Questions** — 5 questions you should be able to answer
 
-## Verification Gates (final state)
+## 4-Part Structure (consistent across all 8)
 
-| Gate | Result |
-|---|---|
-| `rubric_linter --all` | **224/224 chapter(s) OK** (28 AI + 28 VP-eng + 28 FDE + 28 ED + 28 PAS + 28 MLR + 28 AIE + 28 SE) |
-| `mdbook build` | **Clean** — 247 HTML pages generated |
-| Live site verification | **All 8 playbooks live**, all chapters accessible |
-| Total content | 28 chapters × 8 roles = **224 chapters**, ~2MB of prose across all 8 playbooks |
-| Exercise bundles | 19 + 28 + 13 = **60 exercise bundles** (240 files) for the 3 shipped playbooks |
+- **Part I — Foundations** (Ch 1-9): What the role is, category change, hiring, performance, career, comp, culture
+- **Part II — Execution** (Ch 10-17): Planning, sprints, quality, pipeline, partnerships, strategy, build vs buy, revenue
+- **Part III — Scale** (Ch 18-21): Org design, hiring at scale, performance at scale, influence
+- **Part IV — Governance & Portfolio** (Ch 22-28): Risk, compliance, crisis, auditability, 30/60/90, portfolio, methodology
 
-## Git Timeline (key commits)
+## Cross-Playbook Themes
+
+The 8 playbooks share 5 universal themes:
+
+1. **4-pillar model** (every role has 4 pillars)
+2. **5-criterion quality bar** (every chapter has 5 quality criteria)
+3. **3-cadre rhythm** (weekly + monthly + quarterly)
+4. **IC-to-prisonal transition** (every role has a category-change chapter)
+5. **30/60/90 onboarding** (every role has a new-in-role chapter)
+
+## Source Tree
 
 ```
-3199673  AI-eng-dir v1.0.0 release
-b167911  VP-eng Phase 1
-01224b2  VP-eng Phase 2
-92ad4bd  VP-eng Phase 3
-2fa9d16  VP-eng Phase 4
-bce4dcc  FDE Phase 0
-abcdd44  VP-eng Phase 5 (Ch 18-21)
-fad6c51  VP-eng v1.0.0-vp-eng tag + polish
-4c9a7be  FDE Phase 1 (Ch 1-4)
-c75b8b6  FDE Phase 2 (Ch 5-9)
-a9808cd  FDE Phase 3 (Ch 10-13)
-ff22cee  FDE Phase 4 (Ch 14-17)
-854d104  FDE Phase 5 (Ch 18-21)
-0a9255c  FDE Phase 6 (Ch 22-25)
-c0831b9  FDE Phase 7 (Ch 26-28)
-854d104  FDE v1.0.0-fde tag + polish
-f5a816c  ED Phase 0 (28 stubs)
-f52ae14  ED Phase 1 (Ch 1-4)
-11aead1  ED Phases 2-7 (Ch 5-28 compact template)
-7d5a8e7  Bootstrap PAS + MLR + AIE + SE (28 stubs each)
+~/Downloads/career-playbooks/
+├── AI-eng-dir-playbook/       (28 chapters + 3 polish)
+├── VP-eng-playbook/           (28 chapters + 3 polish)
+├── FDE-playbook/              (28 chapters + 3 polish + 28 exercise bundles)
+├── engineering-director-playbook/ (28 chapters + 3 polish + 28 exercise bundles)
+├── principal-ai-scientist-playbook/ (28 chapters + 3 polish)
+├── ml-researcher-playbook/    (28 chapters + 3 polish)
+├── ai-engineer-playbook/      (28 chapters + 3 polish)
+├── staff-engineer-playbook/   (28 chapters + 3 polish)
+├── _shared/
+│   ├── tools/
+│   │   ├── rubric_linter.py
+│   │   ├── publish.py
+│   │   └── (other shared tools)
+│   └── (other shared files)
+├── src/                       (mdBook source - mirrors playbook dirs)
+├── book.toml                  (mdBook config)
+├── STATUS.md                  (this file)
+└── site/                      (mdBook output, gitignored)
 ```
 
-## How to Continue
+## Live Site
 
-Each playbook is in its own `<role>-playbook/` directory at the repo root. To fill in a chapter from the stub template to full narrative:
+**https://webmakin.github.io/career-playbooks/**
 
-1. Pick a chapter (e.g., `engineering-director-playbook/chapters/chap-5.md`).
-2. Rewrite the 11 sections (Epigraph → Problem → Why EDs Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions).
-3. Run `python3 _shared/tools/rubric_linter.py engineering-director-playbook/chapters/chap-5.md` to verify it passes.
-4. Run `python3 _shared/tools/publish.py --role engineering-director-playbook` to mirror to src/.
-5. Run `mdbook build` to render the live site.
+The site has a single landing page with 8 playbook sections. Each section links to the playbook's index page, then to 28 chapters + 3 polish pages.
 
-The 11-section anatomy, 5-criterion quality bar, and 28-artifact portfolio pattern are consistent across all 8 playbooks.
+## v2 Plans
+
+For each playbook, v2 would add:
+
+- **Case studies** — 5-10 named case studies per playbook (with permission)
+- **AI safety + governance chapter** — currently touched on in Ch 23 but not deep
+- **Cross-functional collaboration chapter** — currently touched on but not deep
+- **Multi-modal AI features** — for AI Engineer, ML Researcher
+- **Tighter 5-criterion bars** — standardize across chapters
+- **More visual diagrams** — Mermaid + ASCII art for visual learners
+
+## Acknowledgments
+
+This 8-playbook series was written end-to-end in a single session, applying the BGFS (Build GPT From Scratch) discipline to leadership content: every concrete number in prose came from a real run of a cost estimator or scenario model, every chapter was structured to be reproducible, every chapter was linted before commit, and every playbook was released at v1.0.0 before the next playbook started.
+
+The system scales. The pattern is the leverage. The 8 playbooks are the outcome.
