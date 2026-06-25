@@ -1,103 +1,154 @@
 # Principal AI Scientist Playbook
 ## Chapter 26
 
-# 30/60/90 at the PAS Level
+# The 30/60/90 for the New PAS
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why Principal AI Scientists Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The new PAS runs a 30/60/90 plan. The 30-day listen + assess, the 60-day design + align, and the 90-day execute + review are the PAS's reference for new-PAS onboarding at the principal level."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The new PAS runs a 30/60/90 plan. The 30-day listen + assess, the 60-day design + align, and the 90-day execute + review are the PAS's reference for new-PAS onboarding at the principal level._
 
 ---
 
 ## 2. Problem
 
-You are a Principal AI Scientist at acme-corp. 30/60/90 at the PAS Level is one of the Principal AI Scientist-only disciplines.
+You are a PAS at acme-corp. The CTO has just told you: "FY33 the 30/60/90 for the new pas. 30-day timeline."
 
-This chapter will tell you what the 30/60/90 at the pas level discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio Principal AI Scientist from a non-portfolio Principal AI Scientist.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _PAS 30/60/90 is a 30-day listen + assess + 60-day design + align + 90-day execute + review; the PAS's job is to listen first, design second, execute third._
 
 ---
 
-## 3. Why Principal AI Scientists Fail Here
+## 3. Why PASs Fail Here
 
-Five named failure modes of Principal AI Scientists whose 30/60/90 at the pas level produced zero results.
+Five named failure modes of PASs whose the 30/60/90 for the new pas produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-Listen Failure.** Starts changing things immediately. Team disengaged.
+- **The No-Data Failure.** No data. Uninformed decisions.
+- **The No-Alignment Failure.** No stakeholder alignment.
+- **The Over-Promise Failure.** Over-promises in first 30 days.
+- **The No-Q1-OKRs Failure.** No Q1 research OKRs.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the 30/60/90 at the pas level discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress the 30/60/90 for the new pas.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 30-Day Listen + Assess:** 30 days: meet VP + EMs + gather data + top 3 issues.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 60-Day Design + Align:** 60 days: design research systems + align stakeholders + cascade OKRs.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 90-Day Execute + Review:** 90 days: ship systems + run Q1 OKRs + 90-day review.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The Top 3 Issues Template:** Per issue detail.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for 30/60/90 at the pas level. Each will have a 1-page template in v1.0.0._
+Three frameworks for the 30/60/90 for the new pas.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# The 30/60/90 for the New PAS - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the PAS will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **30/60/90 at the PAS Level artifact** (`portfolio/chapter-26-30/60/90-at-the-pas-level.md`) using the 3 frameworks above. Specify: TBD.
+You are a PAS at **acme-corp**. The CTO has given you 30 days to design the the 30/60/90 for the new pas system.
 
-**Deliverable:** `portfolio/chapter-26-30/60/90-at-the-pas-level.md` — under 1500 words.
+You have **90 minutes**. Produce the **the 30/60/90 for the new pas redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the CTO in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-26-pas-pas-30-60-90.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page 30/60/90 plan:**
+
+```
+# PAS 30/60/90 Plan - 2026-09-01
+
+## Day 1-30: Listen + Assess
+- Meet CTO + 5 RSs (6 1:1s)
+- Gather data (papers + impact + retention)
+- Identify top 3 issues
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+A new PAS at a 200-person B2B AI company started changing things immediately. No listening. The team was disengaged. Q1 research OKRs missed by 50%.
+
+What the first PAS missed: the 30/60/90 for the new pas is a system. The first PAS had no system. The second PAS had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the PAS who has the system has the 30/60/90 for the new pas. The PAS who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **30-day listen + assess** | None | Partial | 6 1:1s in 30 days |
+| 2 | **60-day design + align** | None | Partial | Research systems designed |
+| 3 | **90-day execute + review** | None | Partial | Systems shipped + Q1 OKRs run |
+| 4 | **Top 3 issues** | 0-1 | 2 | 3 issues + mitigation dates |
+| 5 | **Stakeholder alignment** | None | Partial | CTO + VPE + PM aligned |
 
-**Disqualifier:** TBD.
+**Disqualifier:** any 1 on dimension 1 or 2. A PAS who skips listening or has no design is in the No-Listen or No-Alignment failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +156,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-26-30/60/90-at-the-pas-level.md` — interview evidence for 30/60/90 at the pas level (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-26-pas-pas-30-60-90.md` - interview evidence for "Walk me through your 30/60/90 as a new PAS." (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your 30/60/90 as a new PAS.**
+2. **The team is disengaged. What do you do in the first 30 days?**
+3. **The CTO expects changes in week 1. What do you do?**
+4. **Q1 research OKRs are due. What do you do?**
+5. **Walk me through a 30/60/90 you've run.**

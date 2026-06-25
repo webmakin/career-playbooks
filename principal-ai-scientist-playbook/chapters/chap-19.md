@@ -1,103 +1,155 @@
 # Principal AI Scientist Playbook
 ## Chapter 19
 
-# Hiring, Onboarding, Growing Researchers
+# Hiring, Onboarding, Growing Research Talent at Scale
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why Principal AI Scientists Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The PAS owns research hiring at scale. The 4-hire traits, the 3-stage loop, the 5-step onboarding, and the 30-day ramp are the PAS's reference for research hiring at the principal level."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The PAS owns research hiring at scale. The 4-hire traits, the 3-stage loop, the 5-step onboarding, and the 30-day ramp are the PAS's reference for research hiring at the principal level._
 
 ---
 
 ## 2. Problem
 
-You are a Principal AI Scientist at acme-corp. Hiring, Onboarding, Growing Researchers is one of the Principal AI Scientist-only disciplines.
+You are a PAS at acme-corp. The CTO has just told you: "FY31 hiring, onboarding, growing research talent at scale. 30-day timeline."
 
-This chapter will tell you what the hiring, onboarding, growing researchers discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio Principal AI Scientist from a non-portfolio Principal AI Scientist.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _PAS research hiring at scale is a 4-trait system + 3-stage loop + 5-step onboarding + 30-day ramp; the PAS's job is to design the hiring bar, run the loop, and own the onboarding._
 
 ---
 
-## 3. Why Principal AI Scientists Fail Here
+## 3. Why PASs Fail Here
 
-Five named failure modes of Principal AI Scientists whose hiring, onboarding, growing researchers produced zero results.
+Five named failure modes of PASs whose hiring, onboarding, growing research talent at scale produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-Hire-Bar Failure.** PAS has no hire bar. Bad hires.
+- **The 1-Stage Failure.** Only 1 stage. Wrong candidates.
+- **The No-Onboarding Failure.** No structured onboarding. RSs leave in 90 days.
+- **The 30-Day-Ramp Failure.** No ramp-up. RSs unproductive for 6 months.
+- **The 4-Hires-Quarter Failure.** 4 hires/quarter. Can't scale.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the hiring, onboarding, growing researchers discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress hiring, onboarding, growing research talent at scale.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 4 Hire Traits:** 4 traits: publication + research depth + engineering + collaboration.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 3-Stage Loop:** 3 stages: paper review + technical interview + publication talk.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 5-Step Onboarding:** 5 steps: orient + first paper + mentor + lead paper + independent.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The 30-Hire-Quarter Hiring Math:** 30 net hires in 6 months.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for hiring, onboarding, growing researchers. Each will have a 1-page template in v1.0.0._
+Three frameworks for hiring, onboarding, growing research talent at scale.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# Hiring, Onboarding, Growing Research Talent at Scale - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the PAS will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **Hiring, Onboarding, Growing Researchers artifact** (`portfolio/chapter-19-hiring-onboarding-growing-researchers.md`) using the 3 frameworks above. Specify: TBD.
+You are a PAS at **acme-corp**. The CTO has given you 30 days to design the hiring, onboarding, growing research talent at scale system.
 
-**Deliverable:** `portfolio/chapter-19-hiring-onboarding-growing-researchers.md` — under 1500 words.
+You have **90 minutes**. Produce the **hiring, onboarding, growing research talent at scale redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the CTO in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-19-pas-pas-research-hiring-scale.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page hiring plan:**
+
+```
+# PAS Research Hiring Plan - FY27
+
+## Target: 5 net hires
+- 3 PhDs (Stanford, MIT, CMU)
+- 2 industry RSs
+
+## The 4-hire traits + 16+ bar
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+A PAS at a 200-person B2B AI company tried to double RSs from 5 to 10. Hiring rate was 1 RS/year. Without a 3-stage loop, offer-to-close was 50%. 12 months later, only 6 RSs.
+
+What the first PAS missed: hiring, onboarding, growing research talent at scale is a system. The first PAS had no system. The second PAS had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the PAS who has the system has hiring, onboarding, growing research talent at scale. The PAS who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **4-hire traits + bar** | 1-2 | 3 | 4 traits + 16+ bar |
+| 2 | **3-stage loop** | 1 | 2 | 3 stages |
+| 3 | **5-step onboarding** | None | 1-2 | 5 steps |
+| 4 | **30-day ramp** | None | Partial | 30-day ramp with weekly goals |
+| 5 | **Hires per quarter** | <2 | 2-3 | 5+ |
 
-**Disqualifier:** TBD.
+**Disqualifier:** any 1 on dimension 1 or 3. A PAS who has 1-2 traits or no onboarding is in the No-Hire-Bar or No-Onboarding failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +157,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-19-hiring-onboarding-growing-researchers.md` — interview evidence for hiring, onboarding, growing researchers (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-19-pas-pas-research-hiring-scale.md` - interview evidence for "How do you hire at scale?" (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your research hiring system at scale.**
+2. **You need 5 hires in 6 months. What do you do?**
+3. **The offer-to-close rate is 50%. What do you do?**
+4. **A new RS left in 90 days. What do you do?**
+5. **Walk me through a 30-day ramp you've designed.**
