@@ -15,6 +15,9 @@
 # Principal AI Scientist Playbook
 
 - [Principal AI Scientist Playbook](./principal-ai-scientist/index.md)
+- [Preface: How to Read This Book](./principal-ai-scientist/preface.md)
+- [Glossary](./principal-ai-scientist/glossary.md)
+- [Errata & Known Issues](./principal-ai-scientist/errata.md)
 - [Chapter 1: What a Principal AI Scientist Actually Does](./principal-ai-scientist/chapter-01.md)
 - [Chapter 2: The IC-to-Principal Category Change](./principal-ai-scientist/chapter-02.md)
 - [Chapter 3: Research Direction and Vision](./principal-ai-scientist/chapter-03.md)
