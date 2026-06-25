@@ -1,103 +1,156 @@
 # Staff Engineer Playbook
 ## Chapter 8
 
-# Technical Mentorship and Leadership
+# Production Reliability and Observability
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why Staff Engineers Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The SE owns production reliability. The 4-reliability-pillar framework (SLOs + monitoring + alerting + incident response), the 3-reliability templates (logs + metrics + traces), and the 5-criterion reliability quality bar are the SE's reference for reliability at the principal IC level."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The SE owns production reliability. The 4-reliability-pillar framework (SLOs + monitoring + alerting + incident response), the 3-reliability templates (logs + metrics + traces), and the 5-criterion reliability quality bar are the SE's reference for reliability at the principal IC level._
 
 ---
 
 ## 2. Problem
 
-You are a Staff Engineer at acme-corp. Technical Mentorship and Leadership is one of the Staff Engineer-only disciplines.
+You are a Staff Engineer at acme-corp. The engineering director has just told you: "production reliability and observability. 30-day timeline."
 
-This chapter will tell you what the technical mentorship and leadership discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio Staff Engineer from a non-portfolio Staff Engineer.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _SE production reliability is a 4-pillar framework + 3 reliability templates + 5-criterion bar; the SE's job is to design reliability, validate them, and own the production quality._
 
 ---
 
 ## 3. Why Staff Engineers Fail Here
 
-Five named failure modes of Staff Engineers whose technical mentorship and leadership produced zero results.
+Five named failure modes of Staff Engineers whose production reliability and observability produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-SLOs Failure.** No SLOs. No reliability target.
+- **The No-Monitoring Failure.** No monitoring. Can't measure.
+- **The No-Alerting Failure.** No alerting. Silent failures.
+- **The No-Incident-Response Failure.** No incident response.
+- **The No-RCA Failure.** No root cause analysis.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the technical mentorship and leadership discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress production reliability and observability.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 4 Reliability Pillars:** 4 pillars: SLOs + monitoring + alerting + incident response.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 3 Reliability Templates:** 3 templates: logs + metrics + traces.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 5-Criterion Bar:** 5 criteria: SLO-defined + monitored + alerted + responded + RCA'd.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The SLO Card:** 1-page SLO card.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for technical mentorship and leadership. Each will have a 1-page template in v1.0.0._
+Three frameworks for production reliability and observability.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# Production Reliability and Observability - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the SE will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **Technical Mentorship and Leadership artifact** (`portfolio/chapter-08-technical-mentorship-and-leadership.md`) using the 3 frameworks above. Specify: TBD.
+You are a Staff Engineer at **acme-corp**. The engineering director has given you 30 days to design the production reliability and observability system.
 
-**Deliverable:** `portfolio/chapter-08-technical-mentorship-and-leadership.md` — under 1500 words.
+You have **90 minutes**. Produce the **production reliability and observability redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the engineering director in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-08-se-se-reliability.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page SLO card:**
+
+```
+# SLO Card - B2B API
+
+## Availability
+- 99.9% monthly
+
+## Latency
+- p99 < 200ms
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An SE at a 200-person company had no SLOs. Production failures invisible. Customer churned. The VP Eng said: 'No SLOs, no production.'
+
+What the first Staff Engineer missed: production reliability and observability is a system. The first SE had no system. The second SE had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the SE who has the system has production reliability and observability. The SE who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **4 reliability pillars** | 0-1 | 2-3 | 4 pillars |
+| 2 | **3 reliability templates** | 1 | 2 | 3 templates |
+| 3 | **5-criterion bar** | 0-2 | 3-4 | 5 criteria |
+| 4 | **Availability** | <99.5% | 99.5-99.9% | 99.9%+ |
+| 5 | **MTTR** | >4 hours | 1-4 hours | <1 hour |
 
-**Disqualifier:** TBD.
+
+**Disqualifier:** any 1 on dimension 1 or 3. An SE who has no SLOs or no monitoring is in the No-SLOs or No-Monitoring failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +158,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-08-technical-mentorship-and-leadership.md` — interview evidence for technical mentorship and leadership (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-08-se-se-reliability.md` - interview evidence for "Walk me through your reliability system." (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your reliability system.**
+2. **Production is failing. What do you do?**
+3. **Customer A churned. What do you do?**
+4. **You have 3 reliability strategies. How do you prioritize?**
+5. **Walk me through an incident response you've led.**

@@ -120,6 +120,9 @@
 # Staff Engineer Playbook
 
 - [Staff Engineer Playbook](./staff-engineer/index.md)
+- [Preface: How to Read This Book](./staff-engineer/preface.md)
+- [Glossary](./staff-engineer/glossary.md)
+- [Errata & Known Issues](./staff-engineer/errata.md)
 - [Chapter 1: What a Staff Engineer Actually Does](./staff-engineer/chapter-01.md)
 - [Chapter 2: The Senior-to-Staff Category Change](./staff-engineer/chapter-02.md)
 - [Chapter 3: Technical Direction and Vision](./staff-engineer/chapter-03.md)
