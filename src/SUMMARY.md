@@ -85,6 +85,9 @@
 # AI Engineer Playbook
 
 - [AI Engineer Playbook](./ai-engineer/index.md)
+- [Preface: How to Read This Book](./ai-engineer/preface.md)
+- [Glossary](./ai-engineer/glossary.md)
+- [Errata & Known Issues](./ai-engineer/errata.md)
 - [Chapter 1: What an AI Engineer Actually Does](./ai-engineer/chapter-01.md)
 - [Chapter 2: The SWE-to-AI-Engineer Category Change](./ai-engineer/chapter-02.md)
 - [Chapter 3: AI Systems and Architecture](./ai-engineer/chapter-03.md)

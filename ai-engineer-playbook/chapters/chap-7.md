@@ -1,103 +1,157 @@
 # AI Engineer Playbook
 ## Chapter 7
 
-# Fine-Tuning and Custom Models
+# Agent Design and Tool Use
 
-> *"Stub chapter. The full chapter will follow the 11-section anatomy: Epigraph → Problem → Why AI Engineers Fail Here → Mental Models → Frameworks → Drill → Worked Example → Failure Mode Postmortem → Self-Assessment Rubric → Portfolio Artifact Note → Interview Questions."*
+> *"The AIE designs agents. The 4-agent-pillar framework (planning + tool use + memory + reflection), the 3-agent templates (single + multi + hierarchical), and the 5-criterion agent quality bar are the AIE's reference for agent design at the contributor level."*
 
 ---
 
 ## 1. Epigraph
 
-_TBD in v1.0.0._
+_The AIE designs agents. The 4-agent-pillar framework (planning + tool use + memory + reflection), the 3-agent templates (single + multi + hierarchical), and the 5-criterion agent quality bar are the AIE's reference for agent design at the contributor level._
 
 ---
 
 ## 2. Problem
 
-You are a AI Engineer at acme-corp. Fine-Tuning and Custom Models is one of the AI Engineer-only disciplines.
+You are an AIE at acme-corp. The engineering manager has just told you: "agent design and tool use. 30-day timeline."
 
-This chapter will tell you what the fine-tuning and custom models discipline is, the 4 mental models that compress it, the 3 reusable frameworks, and the 5-criterion quality bar that separates a portfolio AI Engineer from a non-portfolio AI Engineer.
+This chapter tells you the 4 mental models, 3 frameworks, and 5-criterion quality bar.
 
-**Decision in one sentence:** _TBD in v1.0.0._
+**Decision in one sentence:** _AIE agent design is a 4-pillar framework + 3 agent templates + 5-criterion bar; the AIE's job is to design agents, validate them, and own the agent quality._
 
 ---
 
-## 3. Why AI Engineers Fail Here
+## 3. Why AIEs Fail Here
 
-Five named failure modes of AI Engineers whose fine-tuning and custom models produced zero results.
+Five named failure modes of AIEs whose agent design and tool use produced zero results.
 
-- **The No-Mental-Model Failure.** TBD in v1.0.0.
-- **The No-Framework Failure.** TBD in v1.0.0.
-- **The No-Drill Failure.** TBD in v1.0.0.
-- **The No-Worked-Example Failure.** TBD in v1.0.0.
-- **The No-Postmortem Failure.** TBD in v1.0.0.
+- **The No-Planning Failure.** No planning. Agent confused.
+- **The No-Tools Failure.** No tool integration. Useless agent.
+- **The No-Memory Failure.** No memory. Forgets context.
+- **The No-Reflection Failure.** No self-correction. Hallucinates.
+- **The No-Eval Failure.** No agent eval.
 
 ---
 
 ## 4. Mental Models
 
-_Four mental models that compress the fine-tuning and custom models discipline. Each will be a numbered Mermaid figure in v1.0.0._
+Four mental models that compress agent design and tool use.
 
-**Mental model 1: TBD.** TBD.
+**mental model 1: The 4 Agent Pillars:** 4 pillars: planning + tool use + memory + reflection.
 
-**Mental model 2: TBD.** TBD.
+**mental model 2: The 3 Agent Templates:** 3 templates: single + multi + hierarchical.
 
-**Mental model 3: TBD.** TBD.
+**mental model 3: The 5-Criterion Bar:** 5 criteria: planned + tooled + memorized + reflected + evaluated.
 
-**Mental model 4: TBD.** TBD.
+**mental model 4: The Agent Card:** 1-page agent card.
 
 ---
 
 ## 5. Frameworks
 
-_Three reusable frameworks for fine-tuning and custom models. Each will have a 1-page template in v1.0.0._
+Three frameworks for agent design and tool use.
 
-### Framework 1: TBD
+### Framework 1: The 1-Page Plan
 
-_TBD._
+```
+# Agent Design and Tool Use - [Date]
 
-### Framework 2: TBD
+## Top 3 strategic inputs
+1. [Input 1]
+2. [Input 2]
+3. [Input 3]
 
-_TBD._
+## The 5-criterion bar applied
 
-### Framework 3: TBD
+## The 1 thing the AIE will NOT compromise on
+[1 sentence.]
+```
 
-_TBD._
+### Framework 2: The Implementation Tracker
+
+```
+# Implementation Tracker - [Quarter]
+
+| Item | Owner | Status | Date |
+|------|-------|--------|------|
+| [Item 1] | [Name] | [Status] | [Date] |
+| [Item 2] | ... | | |
+```
+
+### Framework 3: The Retrospective Review
+
+```
+# Retrospective Review - [Date]
+
+## Top 3 wins
+1. [Win 1]
+2. [Win 2]
+3. [Win 3]
+
+## Top 3 challenges
+1. [Challenge 1]
+2. [Challenge 2]
+3. [Challenge 3]
+```
 
 ---
 
 ## 6. Drill
 
-You have **90 minutes**. Produce the **Fine-Tuning and Custom Models artifact** (`portfolio/chapter-07-fine-tuning-and-custom-models.md`) using the 3 frameworks above. Specify: TBD.
+You are an AIE at **acme-corp**. The engineering manager has given you 30 days to design the agent design and tool use system.
 
-**Deliverable:** `portfolio/chapter-07-fine-tuning-and-custom-models.md` — under 1500 words.
+You have **90 minutes**. Produce the **agent design and tool use redesign** using the 3 frameworks above. Specify:
+
+- The 1-page plan.
+- The implementation tracker.
+- The retrospective review template.
+- The 30-day timeline.
+- The 1 thing you'll say to the engineering manager in the first review.
+- The 3 things you'll do to avoid the 5 failure modes.
+
+**Deliverable:** `portfolio/chapter-07-aie-aie-agents.md` - under 1500 words.
 
 ---
 
 ## 7. Worked Example
 
-_TBD in v1.0.0._
+**The 1-page agent card:**
+
+```
+# Agent Card - B2B Research Agent
+
+## Planning
+- ReAct
+
+## Tools
+- Web search
+- DB query
+```
 
 ---
 
 ## 8. Failure Mode Postmortem
 
-_TBD in v1.0.0._
+An AIE at a 200-person B2B AI company shipped an agent with no planning. The agent hallucinated. The PM said: 'No planning, no agent.'
+
+What the first AIE missed: agent design and tool use is a system. The first AIE had no system. The second AIE had 4 mental models + 3 frameworks + 5 criteria. The system is the leverage.
+
+The lesson: the AIE who has the system has agent design and tool use. The AIE who has no system has the failure mode.
 
 ---
 
 ## 9. Self-Assessment Rubric
 
-| # | Dimension | 1 (Novice) | 3 (Competent) | 5 (Expert) |
-|---|---|---|---|---|
-| 1 | **Dimension 1** | TBD | TBD | TBD |
-| 2 | **Dimension 2** | TBD | TBD | TBD |
-| 3 | **Dimension 3** | TBD | TBD | TBD |
-| 4 | **Dimension 4** | TBD | TBD | TBD |
-| 5 | **Dimension 5** | TBD | TBD | TBD |
+| 1 | **4 agent pillars** | 0-1 | 2-3 | 4 pillars |
+| 2 | **3 templates** | 1 | 2 | 3 templates |
+| 3 | **5-criterion bar** | 0-2 | 3-4 | 5 criteria |
+| 4 | **Tool count** | 0 | 1-2 | 5+ |
+| 5 | **Eval coverage** | <50% | 50-90% | 100% |
 
-**Disqualifier:** TBD.
+
+**Disqualifier:** any 1 on dimension 1 or 3. An AIE who has no planning or no memory is in the No-Planning or No-Memory failure mode.
 
 **Total:** ___ / 25. **Pass threshold:** 18/25, no dimension below 3.
 
@@ -105,10 +159,14 @@ _TBD in v1.0.0._
 
 ## 10. Portfolio Artifact Note
 
-Save your filled-in drill as `portfolio/chapter-07-fine-tuning-and-custom-models.md` — interview evidence for fine-tuning and custom models (see Portfolio Map in Chapter 27).
+Save your filled-in drill as `portfolio/chapter-07-aie-aie-agents.md` - interview evidence for "Walk me through your agent design." (see Portfolio Map in Chapter 27).
 
 ---
 
 ## 11. Interview Questions
 
-_TBD in v1.0.0._
+1. **Walk me through your agent design process.**
+2. **The agent hallucinates. What do you do?**
+3. **The PM rejects the agent. What do you do?**
+4. **You have 3 agent strategies. How do you prioritize?**
+5. **Walk me through an agent eval you've led.**
